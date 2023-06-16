@@ -1,0 +1,152 @@
+# Copyright (c) 2023 by Saugia.
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+shipyard "crescent"
+	"Gazda"
+	"Zidagar Gazda"
+	"Azdara"
+	"Arada"
+	"Igadzra Arada"
+	"Azdgari Arada"
+	"Zidara"
+	"Lazira"
+	"Gazdira"
+	"Azdgari Gazdira"
+	"Igazra"
+
+	"Lizada"
+	"Elzaria"
+	"Aridara"
+	"Azigda"
+	"Igazirada"
+
+	"Zachit Gazda"
+	"Zachit Lizada"
+	"Zachit Arada"
+	"Zachit Aridara"
+	"Zidagar Elzaria"
+	"Igadzra Aridara"
+	"Mirunisa"
+	"Jiunura"
+
+fleet "Giaradz Merchants"
+	government Giaradz
+	#names "giaradz"
+	cargo 2
+	personality timid
+	variant 42
+		"Arada"
+	variant 18
+		"Lazira"
+	variant 3
+		"Gazdira"
+		"Gazda" 3
+	variant
+		"Elzaria"
+		"Gazda"
+
+fleet "Giaradz Militia"
+	government Giaradz
+	#names "giaradz"
+	cargo 2
+	personality heroic
+	variant 34
+		"Gazda"
+	variant 6
+		"Lizada"
+
+fleet "Zachit Militia"
+	government Zachit
+	#names "zachit"
+	cargo 2
+	personality heroic
+	variant 29
+		"Zachit Gazda"
+	variant 8
+		"Zachit Lizada"
+	variant 18
+		"Zachit Arada"
+
+fleet "Miranu"
+	government Miranu
+	#names "miranu"
+	cargo 2
+	personality timid appeasing
+	variant 16
+		"Mirunisa"
+	variant
+		"Jiunura"
+
+fleet "Strandless"
+	government Strandless
+	#names "strandless"
+	cargo 2
+	personality plunders
+	variant 40
+		"Gazda"
+	variant 34
+		"Arada"
+	variant 9
+		"Lazira"
+	variant 8
+		"Lizada"
+	variant
+		"Gazdira"
+		"Gazda" 3
+
+fleet "Zidagar Militia"
+	government Zidagar
+	#names "zidagar"
+	cargo 2
+	personality heroic
+	variant 36
+		"Zidagar Gazda"
+	variant 14
+		"Zidara"
+		"Zidagar Gazda" 2
+	variant 2
+		"Zidagar Elzaria"
+		"Zidagar Gazda"
+
+fleet "Igadzra Militia"
+	government Igadzra
+	#names "igadzra"
+	cargo 2
+	personality heroic
+	variant 42
+		"Igadzra Arada"
+	variant 10
+		"Igadzra Aridara"
+	variant 10
+		"Igazra"
+	variant
+		"Igazirada"
+
+fleet "Azdgari Militia"
+	government Azdgari
+	#names "azdgari"
+	cargo 2
+	personality heroic
+	variant 56
+		"Azdara"
+	variant "16"
+		"Azigda"
+	variant 39
+		"Azdgari Arada"
+	variant 12
+		"Azdgari Gazdira"
+		"Azdara" 6
+	variant 8
+		"Azdgari Gazdira"
+		"Azdara" 3
+		"Azigda" 3
