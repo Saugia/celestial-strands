@@ -1,6 +1,7 @@
 # Celestial Strands
 This repository is for the Endless Sky plug-in "Celestial Strands". The plug-in is in early development, content is subject to and expected to change. Please back up your save when necessary.
 
+![mza](https://github.com/Saugia/celestial-strands/assets/93169396/6ba761e7-fabf-4843-b4f5-2de77621686b)
 ## About
 Celestial Strands brings content from the original Escape Velocity series, primarily Escape Velocity: Override, to Endless Sky in a new playable area. The plug-in focuses on the various factions of the Crescent, including the Strands, Zachit, and Miranu, and their presence in a new, young galaxy. Will the Strands reunite once more under the same banner, or will inner turmoil be their undoing yet again?
 
