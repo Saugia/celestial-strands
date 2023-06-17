@@ -10,10 +10,10 @@ Initial Release of Celestial Strands.
 		* Adds seven governments derived from ones in Escape Velocity: Override.
 
 	* Map
-		* Adds new galactic area containing a total of new systems and new planets.
+		* Adds new galactic area containing a total of 110 new systems and 92 new planets.
 
 	* Ships
-		* Adds new ships derived from on ones in Escape Velocity: Override.
+		* Adds 24 new ships derived from on ones in Escape Velocity: Override.
 
 	*Outfits
-		* Adds new oufits derived from ones in Escape Velocity: Override.
+		* Adds 36 new oufits derived from ones in Escape Velocity: Override.
