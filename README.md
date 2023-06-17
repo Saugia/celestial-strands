@@ -1,10 +1,30 @@
-# plugin-template
-This repository serves as a basic template to be used when creating a plugin for the game Endless Sky. Fork it and start modding!
+# Celestial Strands
+This repository is for the Endless Sky plug-in "Celestial Strands". The plug-in is in early development, content is subject to and expected to change. Please back up your save when necessary.
 
-[Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template)
+## About
+Celestial Strands brings content from the original Escape Velocity series, primarily Escape Velocity: Override, to Endless Sky in a new playable area. The plug-in focuses on the various factions of the Crescent, including the Strands, Zachit, and Miranu, and their presence in a new, young galaxy. Will the Strands reunite once more under the same banner, or will inner turmoil be their undoing yet again?
 
+Current additions:
+* A new galactic area to explore.
+* Seven new governments based on ones from Escape Velocity: Override, as well as a few new ones.
+* new ships based on ones from Escape Velocity: Override, as well as a few new ones.
+* new outfits based on ones from Escape Velocity: Override, as well as a few new ones.
 
-## Things to do after forking:
-1. Clone your repo locally. You'll want to clone / symlink your repo within the `"plugins"` directory in your "user" directory (which is where Endless Sky writes your pilot savegames). This ensures you can update your local version of Endless Sky without worrying about losing any uncommitted & unpushed data.
-2. Flesh out your content! You can learn about all the different bits of game data in the [Endless Sky wiki](https://github.com/endless-sky/endless-sky/wiki/CreatingPlugins)
-3. [Submit your plugin for distribution](https://github.com/EndlessSkyCommunity/endless-sky-plugins) (to be updated)
+## Content Access
+You can access the new content either through creating new pilot and selecting the "Crescent Strands" option, or through the Hariza system located near The Rim.
+
+## Known Issues
+The `system` Za Helis has issues with ships not hyperspacing correctly and clumping up over time.
+
+## Limitations
+Currently, there is only the galaxy map, ships, outfits, and governments to play with. There is no story content as of yet.
+Balancing is still in need of fine-tuning, however it has been done using EV:Override's data within Endless Sky's environment.
+Planets do not have proper landscapes, descriptions, outfitter, or shipyard setups yet, and will be expanded upon in the future.
+Fleets and Governments are skeletal and simple at the moment, and will be expanded upon in the future.
+Currently, HighDPI is within the original graphic folders, but will be separated later on if necessary.
+
+## Download
+Click on the green `<> Code` button at the top right of the repository and download the ZIP file, then extract it to your plug-in folder.
+
+## Contact
+If you find any bugs or issues with this plug-in, feel free to open an Issue in this repository, or visit the Endless Sky Community Discord server here: https://discord.gg/ZeuASSx and @Saugia in #plug-in chat, where I will occasionally post progress.
