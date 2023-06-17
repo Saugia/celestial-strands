@@ -1747,14 +1747,12 @@ system Mzahitu
 	link NZG-460
 	link Poshga
 	link Zinul
-	asteroids "small rock" 46 1.944
 	asteroids "medium rock" 4 2.462
-	asteroids "large rock" 85 2.203
 	asteroids "small metal" 3 1.944
 	asteroids "medium metal" 5 2.851
 	asteroids "large metal" 2 1.652
 	minables titanium 10 3.36
-	minables aluminum 59 3.116
+	minables aluminum 9 3.116
 	fleet "Giaradz Merchants" 200
 	fleet "Zachit Militia" 200
 	fleet Strandless 12000
