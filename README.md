@@ -12,7 +12,7 @@ Current additions:
 * 36 new outfits based on ones from Escape Velocity: Override, as well as a few new ones.
 
 ## Content Access
-You can access the new content either through creating new pilot and selecting the "Crescent Strands" option, or through the Hariza system located near The Rim.
+You can access the new content either through creating new pilot and selecting the "Crescent Strands" option, or through the Hariza system located near The Rim by Jumpdrive. Reccommend also using Omnis: https://github.com/Adde-Endless-Sky-Mods/-Omnis
 
 ## Known Issues
 The `system` Za Helis has issues with ships not hyperspacing correctly and clumping up over time.
