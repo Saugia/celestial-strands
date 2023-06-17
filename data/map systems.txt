@@ -1109,6 +1109,7 @@ system Hariza
 	fleet "Zidagar Militia" 1000
 	fleet "Azdgari Militia" 1000
 	fleet "Igadzra Militia" 1000
+	fleet "Zachit Militia" 1000
 	fleet "Giaradz Merchants" 1000
 	fleet Miranu 1000
 	object

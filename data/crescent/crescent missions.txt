@@ -24,6 +24,6 @@ start "Dev Start"
 	thumbnail "ship/gazda/gazda"
 
 conversation "cstrandsIntro"
-	`Name:`
+	`Sign your soul here:`
 	name
-	`test`
+	`Enjoy playtesting Celestial Strands!`

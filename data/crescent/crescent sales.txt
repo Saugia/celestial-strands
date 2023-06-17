@@ -13,6 +13,7 @@
 
 
 outfitter "crescent"
+	"Jump Drive"
 	"Outfits Expansion"
 	"Cargo Expansion"
 	"Phase Cannon"
@@ -68,13 +69,11 @@ shipyard "crescent"
 	"Gazdira"
 	"Azdgari Gazdira"
 	"Igazra"
-
 	"Lizada"
 	"Elzaria"
 	"Aridara"
 	"Azigda"
 	"Igazirada"
-
 	"Zachit Gazda"
 	"Zachit Lizada"
 	"Zachit Arada"
@@ -83,17 +82,3 @@ shipyard "crescent"
 	"Igadzra Aridara"
 	"Mirunisa"
 	"Jiunura"
-
-#Aridara (Crescent Warship)
-
-#Elzira (Lazira Successor)
-
-#Gazari (Azdara Successor)
-
-#Gazdair (Ultimate Ship)
-
-outfit "Azdgari Engine Enhancement"
-
-outfit "Reaction System Enhancement"
-
-outfit "Thrust System Enhancement"
