@@ -25,6 +25,9 @@ Planets do not have proper landscapes, descriptions, outfitter, or shipyard setu
 Fleets and Governments are skeletal and simple at the moment, and will be expanded upon in the future.
 Currently, HighDPI is within the original graphic folders, but will be separated later on if necessary.
 
+## High Resolution
+For higher resolution graphics, visit the High DPI repository at https://github.com/Saugia/Celestial-Strands-HighDPI.
+
 ## Download
 Click on the green `<> Code` button at the top right of the repository and download the ZIP file, then extract it to your plug-in folder.
 
