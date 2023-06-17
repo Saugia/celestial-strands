@@ -8,8 +8,8 @@ Celestial Strands brings content from the original Escape Velocity series, prima
 Current additions:
 * A new galactic area to explore.
 * Seven new governments based on ones from Escape Velocity: Override, as well as a few new ones.
-* new ships based on ones from Escape Velocity: Override, as well as a few new ones.
-* new outfits based on ones from Escape Velocity: Override, as well as a few new ones.
+* 24 new ships based on ones from Escape Velocity: Override, as well as a few new ones.
+* 36 new outfits based on ones from Escape Velocity: Override, as well as a few new ones.
 
 ## Content Access
 You can access the new content either through creating new pilot and selecting the "Crescent Strands" option, or through the Hariza system located near The Rim.
