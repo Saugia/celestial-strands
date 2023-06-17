@@ -6,10 +6,10 @@ This repository is for the Endless Sky plug-in "Celestial Strands". The plug-in 
 Celestial Strands brings content from the original Escape Velocity series, primarily Escape Velocity: Override, to Endless Sky in a new playable area. The plug-in focuses on the various factions of the Crescent, including the Strands, Zachit, and Miranu, and their presence in a new, young galaxy. Will the Strands reunite once more under the same banner, or will inner turmoil be their undoing yet again?
 
 Current additions:
-* A new galactic area to explore.
+* A new galactic area to explore containing a total of 110 new systems and 92 new planets.
 * Seven new governments based on ones from Escape Velocity: Override, as well as a few new ones.
-* new ships based on ones from Escape Velocity: Override, as well as a few new ones.
-* new outfits based on ones from Escape Velocity: Override, as well as a few new ones.
+* 24 new ships based on ones from Escape Velocity: Override, as well as a few new ones.
+* 36 new outfits based on ones from Escape Velocity: Override, as well as a few new ones.
 
 ## Content Access
 You can access the new content either through creating new pilot and selecting the "Crescent Strands" option, or through the Hariza system located near The Rim.
