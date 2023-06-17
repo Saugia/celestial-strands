@@ -11,4 +11,19 @@
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
+start "Dev Start"
+	account
+		credits 10000000
+	conversation "cstrandsIntro"
+	date 16 11 3013
+	description "Starts you off on a Dev planet for playtesting Celestial Strands."
+	name "Celestial Strands"
+	planet "Hideout"
+	ship "Arada"
+	system "Hariza"
+	thumbnail "ship/gazda/gazda"
 
+conversation "cstrandsIntro"
+	`Name:`
+	name
+	`test`
