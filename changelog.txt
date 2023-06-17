@@ -1,0 +1,19 @@
+
+------------------------------------------
+### Version: 0.0.1 Alpha (6/16/2023)
+------------------------------------------
+
+Initial Release of Celestial Strands.
+
+* Changelog
+	* General
+		* Adds seven governments derived from ones in Escape Velocity: Override.
+
+	* Map
+		* Adds new galactic area containing a total of new systems and new planets.
+
+	* Ships
+		* Adds new ships derived from on ones in Escape Velocity: Override.
+
+	*Outfits
+		* Adds new oufits derived from ones in Escape Velocity: Override.

@@ -1,2 +1,4 @@
-Enter some text that describes your plugin in this file.
-Endless Sky will then display it when the user has your plugin installed and selected.
+Celestial Strands by by Saugia
+This is a plug-in for Endless Sky that adds a new area of content based on the original Escape Velocity games, primarily Escape Velocity: Override.
+Currently early in-progress - please back up your save first and visit https://github.com/Saugia/celestial-strands to report any bugs or issues.
+To test the new content, you can either create a new pilot and select the Celestial Strands option, or visit the Horizo system that can be found near The Rim. Disclaimer: These methods are temporary.
