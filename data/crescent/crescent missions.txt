@@ -13,7 +13,7 @@
 
 start "Dev Start"
 	account
-		credits 10000000
+		credits 100000000
 	conversation "cstrandsIntro"
 	date 16 11 3013
 	description "Starts you off on a Dev planet for playtesting Celestial Strands."
