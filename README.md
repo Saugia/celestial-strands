@@ -16,7 +16,7 @@ You can access the new content either through creating new pilot and selecting t
 
 ## Known Issues
 The `system` Za Helis has issues with ships not hyperspacing correctly and clumping up over time.
-The custom start isn't in the initial release. Also, a Jump Drive is required to actually explore. This will be alleviated in the next release.
+The credit amount given to the player in the custom start is not enough to purchase all the ships.
 
 ## Limitations
 Currently, there is only the galaxy map, ships, outfits, and governments to play with. There is no story content as of yet.
