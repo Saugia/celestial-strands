@@ -13,6 +13,7 @@
 
 
 outfitter "crescent"
+	"Engine Systems Upgrade"
 	"Jump Drive"
 	"Outfits Expansion"
 	"Cargo Expansion"
