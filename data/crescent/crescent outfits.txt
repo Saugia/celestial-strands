@@ -644,6 +644,18 @@ outfit "Zidagar ECM System"
 	description `Z ECM.`
 
 
+outfit "Engine Systems Upgrade"
+	category "Systems"
+	cost 138000
+	thumbnail "outfit/azdgari upgrade"
+	"mass" 4
+	"outfit space" 4
+	"cooling inefficiency" .4
+	"unplunderable" 1
+	"thrust"
+	"turn"
+	description "Azdgari Engine Upgrade."
+
 
 # Power
 
