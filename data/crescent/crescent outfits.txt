@@ -23,7 +23,9 @@ outfit "Phase Cannon"
 	"weapon capacity" -9
 	"gun ports" -1
 	weapon
-		sprite "projectile/astuit"
+		sprite "projectile/phase"
+			"frame rate" 6
+			"random start frame"
 		sound "phase"
 		"inaccuracy" 1
 		"velocity" 14
@@ -46,7 +48,9 @@ outfit "Swivel Phase Cannon"
 	"gun ports" -1
 	"turret mounts" -1
 	weapon
-		sprite "projectile/astuit"
+		sprite "projectile/phase"
+			"frame rate" 6
+			"random start frame"
 		sound "phase"
 		"hardpoint sprite" "hardpoint/swivel phase cannon"
 		"hardpoint offset" 6
@@ -62,6 +66,55 @@ outfit "Swivel Phase Cannon"
 	description `Swivel Phase Cannon.`
 
 
+outfit "Rapid Phase Cannon"
+	category "Guns"
+	cost 50000
+	thumbnail "outfit/rapid phase cannon"
+	"mass" 13
+	"outfit space" -13
+	"weapon capacity" -13
+	"gun ports" -1
+	"turret mounts" -1
+	weapon
+		sprite "projectile/phase"
+			"frame rate" 6
+			"random start frame"
+		sound "phase"
+		"hardpoint sprite" "hardpoint/swivel phase cannon"
+		"hardpoint offset" 6
+		"inaccuracy" 1.6
+		"velocity" 14
+		"lifetime" 26
+		"reload" 16
+		"burst reload" 4
+		"burst count" 3
+		"turret turn" .9
+		"firing energy" 34
+		"firing heat" 32.6
+		"shield damage" 83
+		"hull damage" 41
+	description `Swivel Phase Cannon.`
+
+
+56/3 = 18.7
+
+60/3 = 20.6
+
+135/3 = 40.5
+
+65/3 = 21.7
+
+
+
+56*3 = 168
+
+62*3 186
+
+135*3 = 405
+
+
+
+
 outfit "Phase Cannon Turret"
 	category "Turrets"
 	cost 50000
@@ -72,7 +125,9 @@ outfit "Phase Cannon Turret"
 	"turret mounts" -1
 	"required crew" 1
 	weapon
-		sprite "projectile/astuit"
+		sprite "projectile/phase"
+			"frame rate" 6
+			"random start frame"
 		sound "phase"
 		"hardpoint sprite" "hardpoint/phase turret"
 		"hardpoint offset" 6
@@ -99,6 +154,7 @@ outfit "Phased Disruption Laser"
 	weapon
 		sprite "projectile/phased beam/phased beam"
 			"frame rate" 5
+		"hit effect" "beam laser impact"
 		sound "phaser"
 		"icon" "unknown"
 		"inaccuracy" .3
@@ -126,6 +182,7 @@ outfit "Phased Disruption Turret"
 	weapon
 		sprite "projectile/phased beam/phased beam"
 			"frame rate" 20
+		"hit effect" "beam laser impact"
 		"hardpoint sprite" "hardpoint/phased turret"
 		"hardpoint offset" 8
 		sound "phaser"
@@ -184,7 +241,7 @@ outfit "Dispersal Rocket"
 	category "Ammunition"
 	cost 2000
 	thumbnail "outfit/dispersal rocket"
-	"mass" .4
+	"mass" .3
 	"dispersal capacity" -1
 	description "Dispersal Ammo."
 
@@ -243,7 +300,7 @@ outfit "Pursuit Missile"
 	category "Ammunition"
 	cost 2000
 	thumbnail "outfit/pursuit missile"
-	"mass" .3
+	"mass" .2
 	"pursuit capacity" -1
 	description "Pursuit Ammo."
 
@@ -498,6 +555,7 @@ outfit "Igadzra Disruption Beamer"
 	weapon
 		sprite "projectile/igadzra beamer/beamer"
 			"frame rate" 20
+		"hit effect" "slicer impact"
 		"hardpoint sprite" "hardpoint/beamer"
 		"hardpoint offset" 4
 		sound "beamer"
@@ -644,7 +702,7 @@ outfit "Agri-I System"
 outfit "Zonai Afterburner"
 	category "Engines"
 	"cost" 640000
-	thumbnail "outfit/zaft"
+	thumbnail "outfit/zonai afterburner"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5

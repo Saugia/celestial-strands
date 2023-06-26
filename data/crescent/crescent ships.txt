@@ -259,9 +259,7 @@ ship "Azigda"
 			"hull damage" 160
 			"hit force" 480
 	outfits
-		"Swivel Phase Cannon" 2
-		"Dispersal Rocket Launcher"
-		"Dispersal Rocket" 10
+		"Rapid Phase Cannon" 2
 
 		"Giz System"
 		"ECM System"
@@ -269,9 +267,9 @@ ship "Azigda"
 		"Za-Class Thruster"
 		"Za-Class Steering"
 	engine 0 0 0.8
-	turret -19 1 "Swivel Phase Cannon"
-	turret 19 1 "Swivel Phase Cannon"
-	gun 0 -44.5 "Dispersal Rocket Launcher"
+	turret -19 1 "Rapid Phase Cannon"
+	turret 19 1 "Rapid Phase Cannon"
+	gun 0 -44.5
 	gun -8 -20
 	gun 8 -20
 	gun -9.5 -18.5
@@ -550,7 +548,7 @@ ship "Igadzra Arada"
 		"Swivel Phase Cannon" 3
 		"Phase Cannon" 2
 		"SAE Deployer"
-		"SAE Module" 20
+		"SAE Module" 20(10)
 
 		"Agri-I System" 2
 		"ECM System"
@@ -1081,9 +1079,9 @@ ship "Azdgari Gazdira"
 		"drag" 7.1
 		"fuel capacity" 500
 		"heat dissipation" .5
-		"outfit space" 560
+		"outfit space" 520
 		"cargo space" 70
-		"weapon capacity" 200
+		"weapon capacity" 136
 		"engine capacity" 190
 
 		"jump fuel" 100
