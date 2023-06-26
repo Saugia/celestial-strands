@@ -647,13 +647,13 @@ outfit "Zidagar ECM System"
 outfit "Engine Systems Upgrade"
 	category "Systems"
 	cost 138000
+	"engine upgrade" -1
+	"steering upgrade" -1
 	thumbnail "outfit/azdgari upgrade"
-	"mass" 4
-	"outfit space" 4
 	"cooling inefficiency" .4
 	"unplunderable" 1
-	"thrust"
-	"turn"
+	"thrust" 6
+	"turn" 600
 	description "Azdgari Engine Upgrade."
 
 
@@ -739,6 +739,7 @@ outfit "Za-Class Thruster"
 	"mass" 22
 	"outfit space" -22
 	"engine capacity" -22
+	"engine upgrade" 1
 	"thrust" 20
 	"thrusting energy" 2.6
 	"thrusting heat" 4.8
@@ -756,6 +757,7 @@ outfit "Azag-Class Thruster"
 	"mass" 57
 	"outfit space" -77
 	"engine capacity" -77
+	"engine upgrade" 1
 	"thrust" 68.1
 	"thrusting energy" 8.7
 	"thrusting heat" 15.9
@@ -773,6 +775,7 @@ outfit "Za-Class Steering"
 	"mass" 24
 	"outfit space" -24
 	"engine capacity" -24
+	"steering upgrade" 1
 	"turn" 800
 	"turning energy" 1.5
 	"turning heat" 3
@@ -790,6 +793,7 @@ outfit "Azag-Class Steering"
 	"mass" 42
 	"outfit space" -59
 	"engine capacity" -59
+	"steering upgrade" 1
 	"turn" 2000
 	"turning energy" 4.6
 	"turning heat" 8.6
