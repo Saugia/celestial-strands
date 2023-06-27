@@ -93,26 +93,7 @@ outfit "Rapid Phase Cannon"
 		"firing heat" 32.6
 		"shield damage" 83
 		"hull damage" 41
-	description `Swivel Phase Cannon.`
-
-
-56/3 = 18.7
-
-60/3 = 20.6
-
-135/3 = 40.5
-
-65/3 = 21.7
-
-
-
-56*3 = 168
-
-62*3 186
-
-135*3 = 405
-
-
+	description `Rapid Phase Cannon.`
 
 
 outfit "Phase Cannon Turret"
@@ -201,6 +182,36 @@ outfit "Phased Disruption Turret"
 	description `Phaser Turret.`
 
 
+outfit "Phased Defense Turret"
+	category "Turrets"
+	cost 112000
+	thumbnail "outfit/phased pdt"
+	"mass" 36
+	"outfit space" -30
+	"weapon capacity" -30
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		"hardpoint sprite" "hardpoint/phased pdt"
+		"hardpoint offset" 4
+		"hit effect" "phased point defense"
+		"anti-missile" 60
+		"velocity" 210
+		"lifetime" 1
+		"reload" 20
+		"firing energy" 12.6
+		"firing heat" 14
+	description `Phased Disruptor Point-Defense turret.
+
+effect "phased point defense"
+	sprite "projectile/phased beam/pdb"
+		"no repeat"
+		"frame rate" 30
+	sound "phaser"
+	"lifetime" 10
+	"velocity scale" 1
+
+
 outfit "Dispersal Rocket Launcher"
 	category "Secondary Weapons"
 	cost 40000
@@ -234,7 +245,7 @@ outfit "Dispersal Rocket Launcher"
 		"shield damage" 2600
 		"hull damage" 600
 		"hit force" 300
-		"missile strength" 40
+		"missile strength" 36
 	description `Dispersal Launcher.`
 
 outfit "Dispersal Rocket"
@@ -293,7 +304,7 @@ outfit "Pursuit Missile Launcher"
 		"shield damage" 900
 		"hull damage" 900
 		"hit force" 500
-		"missile strength" 36
+		"missile strength" 44
 	description `Pursuit Launcher.`
 
 outfit "Pursuit Missile"
@@ -355,6 +366,7 @@ outfit "SAD Deployer"
 		"hull damage" 840
 		"heat damage" 50
 		"hit force" 100
+		"missile strength" 100
 	description `SAD Deployer.`
 
 outfit "SAD Module"
@@ -405,6 +417,7 @@ outfit "SAE Deployer"
 		"hull damage" 1080
 		"heat damage" 80
 		"hit force" 100
+		"missile strength" 100
 	description `SAE Deployer.`
 
 outfit "SAE Module"
@@ -501,6 +514,7 @@ outfit "Mirau Pod Deployer"
 		"hull damage" 1600
 		"slowing damage" 30
 		"hit force" 80
+		"missile strength" 80
 	description `Mirau Pod Deployer.`
 
 outfit "Mirau Pod"
@@ -655,6 +669,21 @@ outfit "Engine Systems Upgrade"
 	"thrust" 6
 	"turn" 600
 	description "Azdgari Engine Upgrade."
+
+
+outfit "Zonai Radar System"
+	category "Systems"
+	cost 24000
+	thumbnail "outfit/crescent scanner"
+	"mass" 3
+	"outfit space" -3
+	"outfit scan power" 30
+	"outfit scan efficiency" 16
+	"cargo scan power" 15
+	"cargo scan efficiency" 10
+	"tactical scan power" 60
+	description `Scanner.`
+
 
 
 # Power

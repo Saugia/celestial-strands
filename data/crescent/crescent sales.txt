@@ -56,8 +56,8 @@ outfitter "crescent"
 	"Plasma Siphoner"
 	"Igadzra Disruption Beamer"
 	"Phased Disruption Turret"
-
-
+	"Phased Defense Turret"
+	"Zonai Radar System"
 
 shipyard "crescent"
 	"Gazda"

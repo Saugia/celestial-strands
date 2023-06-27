@@ -548,7 +548,7 @@ ship "Igadzra Arada"
 		"Swivel Phase Cannon" 3
 		"Phase Cannon" 2
 		"SAE Deployer"
-		"SAE Module" 20(10)
+		"SAE Module" 20
 
 		"Agri-I System" 2
 		"ECM System"
