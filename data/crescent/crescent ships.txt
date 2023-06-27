@@ -1335,7 +1335,7 @@ ship "Mirunisa"
 
 ship "Jiunura"
 	sprite "ship/jiunura/jiunura"
-		"frame rate" 6
+		"frame rate" 4
 	attributes
 		category "Heavy Freighter"
 		"cost" 800000
