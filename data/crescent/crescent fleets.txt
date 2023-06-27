@@ -12,34 +12,6 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 
-shipyard "crescent"
-	"Gazda"
-	"Zidagar Gazda"
-	"Azdara"
-	"Arada"
-	"Igadzra Arada"
-	"Azdgari Arada"
-	"Zidara"
-	"Lazira"
-	"Gazdira"
-	"Azdgari Gazdira"
-	"Igazra"
-
-	"Lizada"
-	"Elzaria"
-	"Aridara"
-	"Azigda"
-	"Igazirada"
-
-	"Zachit Gazda"
-	"Zachit Lizada"
-	"Zachit Arada"
-	"Zachit Aridara"
-	"Zidagar Elzaria"
-	"Igadzra Aridara"
-	"Mirunisa"
-	"Jiunura"
-
 fleet "Giaradz Merchants"
 	government Giaradz
 	#names "giaradz"

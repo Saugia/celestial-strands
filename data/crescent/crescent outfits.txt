@@ -80,7 +80,7 @@ outfit "Rapid Phase Cannon"
 			"frame rate" 6
 			"random start frame"
 		sound "phase"
-		"hardpoint sprite" "hardpoint/swivel phase cannon"
+		"hardpoint sprite" "hardpoint/rapid phase cannon"
 		"hardpoint offset" 6
 		"inaccuracy" 1.6
 		"velocity" 14
@@ -201,7 +201,7 @@ outfit "Phased Defense Turret"
 		"reload" 20
 		"firing energy" 12.6
 		"firing heat" 14
-	description `Phased Disruptor Point-Defense turret.
+	description `Phased Disruptor Point-Defense turret.`
 
 effect "phased point defense"
 	sprite "projectile/phased beam/pdb"
@@ -530,9 +530,9 @@ outfit "Plasma Siphoner"
 	category "Secondary Weapons"
 	cost 190000
 	thumbnail "outfit/unknown"
-	"mass" 9
-	"outfit space" -9
-	"weapon capacity" -9
+	"mass" 19
+	"outfit space" -19
+	"weapon capacity" -19
 	"gun ports" -1
 	"ramscoop" .9
 	weapon
@@ -542,18 +542,18 @@ outfit "Plasma Siphoner"
 			"scale" 0.25
 		sound "remnant afterburner"
 		icon "icon/flamethrower"
-		"inaccuracy" 12
+		"inaccuracy" 18
 		"velocity" 8
 		"lifetime" 55
 		"reload" 3
 		"firing fuel" 1.2
 		"firing energy" 40
 		"firing heat" 100
-		"corrosion damage" 1
-		"piercing" .001
-		"hit force" 24
-		"shield damage" 100
-		"hull damage" 30
+		"corrosion damage" 1.2
+		"piercing" .05
+		"hit force" 300
+		"shield damage" 120
+		"hull damage" 40
 	description `Siphoner.`
 
 
@@ -619,8 +619,8 @@ outfit "Shield Matrix Enhancement"
 	"mass" 10
 	"outfit space" -10
 	"shields" 500
-	"shield energy" 10
-	"heat generation" 10
+	"shield energy" 4
+	"heat generation" 11
 	description `Shield Enhancer.`
 
 
@@ -631,7 +631,7 @@ outfit "Ga-11 Regenerator"
 	"mass" 5
 	"outfit space" -5
 	"shield generation" .96
-	"shield energy" .96
+	"shield energy" 3.8
 	"shield heat" 2.6
 	"energy consumption" .38
 	description `Crescent Shield Regen.`
@@ -666,8 +666,8 @@ outfit "Engine Systems Upgrade"
 	thumbnail "outfit/azdgari upgrade"
 	"cooling inefficiency" .4
 	"unplunderable" 1
-	"thrust" 6
-	"turn" 600
+	"thrust" 7
+	"turn" 500
 	description "Azdgari Engine Upgrade."
 
 
