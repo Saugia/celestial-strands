@@ -182,8 +182,8 @@ ship "Azdara"
 	attributes
 		category "Fighter"
 		"cost" 1500000
-		"shields" 2600
-		"shield generation" 3.2
+		"shields" 4000
+		"shield generation" 3.6
 		"hull" 200
 		"required crew" 1
 		"bunks" 1
@@ -233,8 +233,8 @@ ship "Azigda"
 	attributes
 		category "Fighter"
 		"cost" 1500000
-		"shields" 3000
-		"shield generation" 3.6
+		"shields" 4400
+		"shield generation" 3.9
 		"hull" 300
 		"required crew" 1
 		"bunks" 1
@@ -259,9 +259,7 @@ ship "Azigda"
 			"hull damage" 160
 			"hit force" 480
 	outfits
-		"Swivel Phase Cannon" 2
-		"Dispersal Rocket Launcher"
-		"Dispersal Rocket" 10
+		"Rapid Phase Cannon" 2
 
 		"Giz System"
 		"ECM System"
@@ -269,9 +267,9 @@ ship "Azigda"
 		"Za-Class Thruster"
 		"Za-Class Steering"
 	engine 0 0 0.8
-	turret -19 1 "Swivel Phase Cannon"
-	turret 19 1 "Swivel Phase Cannon"
-	gun 0 -44.5 "Dispersal Rocket Launcher"
+	turret -19 1 "Rapid Phase Cannon"
+	turret 19 1 "Rapid Phase Cannon"
+	gun 0 -44.5
 	gun -8 -20
 	gun 8 -20
 	gun -9.5 -18.5
@@ -581,9 +579,9 @@ ship "Azdgari Arada"
 	attributes
 		category "Utility"
 		"cost" 800000
-		"shields" 6800
-		"shield generation" .2
-		"hull" 1000
+		"shields" 8800
+		"shield generation" 6.4
+		"hull" 900
 		"required crew" 3
 		"bunks" 3
 		"mass" 225
@@ -1081,9 +1079,9 @@ ship "Azdgari Gazdira"
 		"drag" 7.1
 		"fuel capacity" 500
 		"heat dissipation" .5
-		"outfit space" 560
+		"outfit space" 520
 		"cargo space" 70
-		"weapon capacity" 200
+		"weapon capacity" 136
 		"engine capacity" 190
 
 		"jump fuel" 100

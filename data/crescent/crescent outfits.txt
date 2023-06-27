@@ -23,7 +23,9 @@ outfit "Phase Cannon"
 	"weapon capacity" -9
 	"gun ports" -1
 	weapon
-		sprite "projectile/astuit"
+		sprite "projectile/phase"
+			"frame rate" 6
+			"random start frame"
 		sound "phase"
 		"inaccuracy" 1
 		"velocity" 14
@@ -46,7 +48,9 @@ outfit "Swivel Phase Cannon"
 	"gun ports" -1
 	"turret mounts" -1
 	weapon
-		sprite "projectile/astuit"
+		sprite "projectile/phase"
+			"frame rate" 6
+			"random start frame"
 		sound "phase"
 		"hardpoint sprite" "hardpoint/swivel phase cannon"
 		"hardpoint offset" 6
@@ -62,6 +66,36 @@ outfit "Swivel Phase Cannon"
 	description `Swivel Phase Cannon.`
 
 
+outfit "Rapid Phase Cannon"
+	category "Guns"
+	cost 50000
+	thumbnail "outfit/rapid phase cannon"
+	"mass" 13
+	"outfit space" -13
+	"weapon capacity" -13
+	"gun ports" -1
+	"turret mounts" -1
+	weapon
+		sprite "projectile/phase"
+			"frame rate" 6
+			"random start frame"
+		sound "phase"
+		"hardpoint sprite" "hardpoint/swivel phase cannon"
+		"hardpoint offset" 6
+		"inaccuracy" 1.6
+		"velocity" 14
+		"lifetime" 26
+		"reload" 16
+		"burst reload" 4
+		"burst count" 3
+		"turret turn" .9
+		"firing energy" 34
+		"firing heat" 32.6
+		"shield damage" 83
+		"hull damage" 41
+	description `Rapid Phase Cannon.`
+
+
 outfit "Phase Cannon Turret"
 	category "Turrets"
 	cost 50000
@@ -72,7 +106,9 @@ outfit "Phase Cannon Turret"
 	"turret mounts" -1
 	"required crew" 1
 	weapon
-		sprite "projectile/astuit"
+		sprite "projectile/phase"
+			"frame rate" 6
+			"random start frame"
 		sound "phase"
 		"hardpoint sprite" "hardpoint/phase turret"
 		"hardpoint offset" 6
@@ -99,6 +135,7 @@ outfit "Phased Disruption Laser"
 	weapon
 		sprite "projectile/phased beam/phased beam"
 			"frame rate" 5
+		"hit effect" "beam laser impact"
 		sound "phaser"
 		"icon" "unknown"
 		"inaccuracy" .3
@@ -126,6 +163,7 @@ outfit "Phased Disruption Turret"
 	weapon
 		sprite "projectile/phased beam/phased beam"
 			"frame rate" 20
+		"hit effect" "beam laser impact"
 		"hardpoint sprite" "hardpoint/phased turret"
 		"hardpoint offset" 8
 		sound "phaser"
@@ -142,6 +180,36 @@ outfit "Phased Disruption Turret"
 		"hull damage" 10
 		"disruption damage" .04
 	description `Phaser Turret.`
+
+
+outfit "Phased Defense Turret"
+	category "Turrets"
+	cost 112000
+	thumbnail "outfit/phased pdt"
+	"mass" 36
+	"outfit space" -30
+	"weapon capacity" -30
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		"hardpoint sprite" "hardpoint/phased pdt"
+		"hardpoint offset" 4
+		"hit effect" "phased point defense"
+		"anti-missile" 60
+		"velocity" 210
+		"lifetime" 1
+		"reload" 20
+		"firing energy" 12.6
+		"firing heat" 14
+	description `Phased Disruptor Point-Defense turret.
+
+effect "phased point defense"
+	sprite "projectile/phased beam/pdb"
+		"no repeat"
+		"frame rate" 30
+	sound "phaser"
+	"lifetime" 10
+	"velocity scale" 1
 
 
 outfit "Dispersal Rocket Launcher"
@@ -177,14 +245,14 @@ outfit "Dispersal Rocket Launcher"
 		"shield damage" 2600
 		"hull damage" 600
 		"hit force" 300
-		"missile strength" 40
+		"missile strength" 36
 	description `Dispersal Launcher.`
 
 outfit "Dispersal Rocket"
 	category "Ammunition"
 	cost 2000
 	thumbnail "outfit/dispersal rocket"
-	"mass" .4
+	"mass" .3
 	"dispersal capacity" -1
 	description "Dispersal Ammo."
 
@@ -236,14 +304,14 @@ outfit "Pursuit Missile Launcher"
 		"shield damage" 900
 		"hull damage" 900
 		"hit force" 500
-		"missile strength" 36
+		"missile strength" 44
 	description `Pursuit Launcher.`
 
 outfit "Pursuit Missile"
 	category "Ammunition"
 	cost 2000
 	thumbnail "outfit/pursuit missile"
-	"mass" .3
+	"mass" .2
 	"pursuit capacity" -1
 	description "Pursuit Ammo."
 
@@ -298,6 +366,7 @@ outfit "SAD Deployer"
 		"hull damage" 840
 		"heat damage" 50
 		"hit force" 100
+		"missile strength" 100
 	description `SAD Deployer.`
 
 outfit "SAD Module"
@@ -348,6 +417,7 @@ outfit "SAE Deployer"
 		"hull damage" 1080
 		"heat damage" 80
 		"hit force" 100
+		"missile strength" 100
 	description `SAE Deployer.`
 
 outfit "SAE Module"
@@ -444,6 +514,7 @@ outfit "Mirau Pod Deployer"
 		"hull damage" 1600
 		"slowing damage" 30
 		"hit force" 80
+		"missile strength" 80
 	description `Mirau Pod Deployer.`
 
 outfit "Mirau Pod"
@@ -498,6 +569,7 @@ outfit "Igadzra Disruption Beamer"
 	weapon
 		sprite "projectile/igadzra beamer/beamer"
 			"frame rate" 20
+		"hit effect" "slicer impact"
 		"hardpoint sprite" "hardpoint/beamer"
 		"hardpoint offset" 4
 		sound "beamer"
@@ -586,6 +658,33 @@ outfit "Zidagar ECM System"
 	description `Z ECM.`
 
 
+outfit "Engine Systems Upgrade"
+	category "Systems"
+	cost 138000
+	"engine upgrade" -1
+	"steering upgrade" -1
+	thumbnail "outfit/azdgari upgrade"
+	"cooling inefficiency" .4
+	"unplunderable" 1
+	"thrust" 6
+	"turn" 600
+	description "Azdgari Engine Upgrade."
+
+
+outfit "Zonai Radar System"
+	category "Systems"
+	cost 24000
+	thumbnail "outfit/crescent scanner"
+	"mass" 3
+	"outfit space" -3
+	"outfit scan power" 30
+	"outfit scan efficiency" 16
+	"cargo scan power" 15
+	"cargo scan efficiency" 10
+	"tactical scan power" 60
+	description `Scanner.`
+
+
 
 # Power
 
@@ -644,7 +743,7 @@ outfit "Agri-I System"
 outfit "Zonai Afterburner"
 	category "Engines"
 	"cost" 640000
-	thumbnail "outfit/zaft"
+	thumbnail "outfit/zonai afterburner"
 	"mass" 5
 	"outfit space" -5
 	"engine capacity" -5
@@ -669,6 +768,7 @@ outfit "Za-Class Thruster"
 	"mass" 22
 	"outfit space" -22
 	"engine capacity" -22
+	"engine upgrade" 1
 	"thrust" 20
 	"thrusting energy" 2.6
 	"thrusting heat" 4.8
@@ -686,6 +786,7 @@ outfit "Azag-Class Thruster"
 	"mass" 57
 	"outfit space" -77
 	"engine capacity" -77
+	"engine upgrade" 1
 	"thrust" 68.1
 	"thrusting energy" 8.7
 	"thrusting heat" 15.9
@@ -703,6 +804,7 @@ outfit "Za-Class Steering"
 	"mass" 24
 	"outfit space" -24
 	"engine capacity" -24
+	"steering upgrade" 1
 	"turn" 800
 	"turning energy" 1.5
 	"turning heat" 3
@@ -720,6 +822,7 @@ outfit "Azag-Class Steering"
 	"mass" 42
 	"outfit space" -59
 	"engine capacity" -59
+	"steering upgrade" 1
 	"turn" 2000
 	"turning energy" 4.6
 	"turning heat" 8.6
