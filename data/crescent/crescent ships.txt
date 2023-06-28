@@ -1193,123 +1193,114 @@ ship "Lazira"
 	explode "tiny explosion" 20
 	description `Lazira.`
 
-ship "Elzaria"
-	sprite "ship/elzari/elzari"
-		"frame rate" 8
-	attributes
-		category "Heavy Warship"
-		"cost" 800000
-		"shields" 21000
-		"shield generation" .2
-		"hull" 3000
-		"required crew" 24
-		"bunks" 40
-		"mass" 920
-		"drag" 6.7
-		"fuel capacity" 500
-		"heat dissipation" .6
-		"outfit space" 440
-		"cargo space" 40
-		"weapon capacity" 158
-		"engine capacity" 126
-
-		"jump fuel" 100
-		"jump speed" 1
-		"hyperdrive" 1
-		"hyperdrive sound" "crescent drive"
-		"hyperdrive in sound" "crescent in"
-		"hyperdrive out sound" "crescent out"
-		weapon
-			"blast radius" 48
-			"shield damage" 320
-			"hull damage" 160
-			"hit force" 480
+ship "Lazira" "Lazira (Gunboat)"
 	outfits
-		"Phase Cannon Turret" 2
-		"Swivel Phase Cannon" 2
-
+		"Phase Cannon Turret" 3
+		"Phase Cannon" 5
 		"Agri-G System" 2
 		"Agri-I System"
 		"ECM System"
-
 		"Lazari Graviton Buoy"
-	engine -47.5 160 0.7
-	engine 47.5 160 0.7
-	engine -32 166.5 0.7
-	engine 32 166.5 0.7
-	engine -16 171 0.7
-	engine 16 171 0.7
-	engine 0 173 0.7
-	turret -9 -122 "Swivel Phase Cannon"
-	turret 9 -122 "Swivel Phase Cannon"
-	turret -86.5 20.5 "Phase Cannon Turret"
-	turret 86.5 20.5 "Phase Cannon Turret"
-	gun -80 -82
-	gun 80 -82
-	bay "Fighter" 0 -62
-		"launch effect" "gaza launch"
-	explode "tiny explosion" 20
-	description `Elzari.`
 
-ship "Zidagar Elzaria"
-	sprite "ship/elzari/zidagar elzari"
-		"frame rate" 8
-	attributes
-		category "Heavy Warship"
-		"cost" 800000
-		"shields" 21000
-		"shield generation" .2
-		"hull" 3000
-		"required crew" 24
-		"bunks" 40
-		"mass" 920
-		"drag" 6.7
-		"fuel capacity" 600
-		"heat dissipation" .6
-		"ramscoop" 2.9
-		"outfit space" 460
-		"cargo space" 20
-		"weapon capacity" 158
-		"engine capacity" 126
-
-		"jump fuel" 100
-		"jump speed" 1
-		"hyperdrive" 1
-		"hyperdrive sound" "crescent drive"
-		"hyperdrive in sound" "crescent in"
-		"hyperdrive out sound" "crescent out"
-		weapon
-			"blast radius" 48
-			"shield damage" 320
-			"hull damage" 160
-			"hit force" 480
+ship "Lazira" "Lazira (Turret)"
 	outfits
-		"Phased Disruption Turret" 2
+		"Phase Cannon Turret" 3
+		"Phase Cannon" 2
+		"SAD Deployer"
+		"SAD Module" 15
+		"Agri-G System" 2
+		"Agri-I System"
+		"ECM System"
+		"Lazari Graviton Buoy"
+	turret "Phase Cannon Turret"
+	turret "Phase Cannon Turret"
+	turret "Phase Cannon Turret"
+	gun "SAD Deployer"
+	gun "Phase Cannon"
+	gun "Phase Cannon"
+	gun
+	gun
+
+ship "Lazira" "Lazira (Pursuit)"
+	outfits
+		"Phase Cannon Turret"
+		"Swivel Phase Cannon" 2
+		"Pursuit Missile Launcher" 2
+		"Pursuit Missile" 30
+		"SAD Deployer"
+		"SAD Module" 15
+		"Agri-G System" 2
+		"Agri-I System"
+		"ECM System"
+		"Lazari Graviton Buoy"
+	turret "Phase Cannon Turret"
+	turret "Swivel Phase Cannon"
+	turret "Swivel Phase Cannon"
+	gun "SAD Deployer"
+	gun
+	gun
+	gun "Pursuit Missile Launcher"
+	gun "Pursuit Missile Launcher"
+
+ship "Lazira" "Lazira (SAD)"
+	outfits
 		"Phase Cannon Turret" 2
+		"Swivel Phase Cannon"
+		"SAD Deployer" 2
+		"SAD Module" 30
+		"Agri-G System" 2
+		"Agri-I System"
+		"ECM System"
+		"Lazari Graviton Buoy"
+	turret "Swivel Phase Cannon"
+	turret "Phase Cannon Turret"
+	turret "Phase Cannon Turret"
+	gun
+	gun
+	gun
+	gun "SAD Deployer"
+	gun "SAD Deployer"
+
+ship "Lazira" "Lazira (Repulsor)"
+	outfits
+		"Elzar Repulsor Beam"
+		"Phase Cannon Turret" 2
+		"Phase Cannon"
 		"Dispersal Rocket Launcher" 2
 		"Dispersal Rocket" 20
-
-		"Agri-I System" 3
-		"Zidagar ECM System"
-
+		"Agri-G System" 2
+		"Agri-I System"
+		"Shield Matrix Enhancement"
+		"ECM System"
 		"Lazari Graviton Buoy"
-	engine -47.5 160 0.7
-	engine 47.5 160 0.7
-	engine -32 166.5 0.7
-	engine 32 166.5 0.7
-	engine -16 171 0.7
-	engine 16 171 0.7
-	engine 0 173 0.7
-	turret -9 -122 "Phased Disruption Turret"
-	turret 9 -122 "Phased Disruption Turret"
-	turret -86.5 20.5 "Phase Cannon Turret"
-	turret 86.5 20.5 "Phase Cannon Turret"
-	gun -80 -82
-	gun 80 -82
-	bay "Fighter" 0 -62
-		"launch effect" "gaza launch"
-	explode "tiny explosion" 20
-	description `Elzari.`
+	turret "Elzar Repulsor Beam"
+	turret "Phase Cannon Turret"
+	turret "Phase Cannon Turret"
+	gun "Phase Cannon"
+	gun
+	gun
+	gun "Dispersal Rocket Launcher"
+	gun "Dispersal Rocket Launcher"
+
+ship "Lazira" "Lazira (Attractor)"
+	outfits
+		"Elzar Tractor Beam"
+		"Phase Cannon Turret" 2
+		"Phase Cannon" 2
+		"Agri-G System" 2
+		"Agri-I System"
+		"Zonai Radar System"
+		"ECM System"
+		"Lazari Graviton Buoy"
+	turret "Elzar Tractor Beam"
+	turret "Phase Cannon Turret"
+	turret "Phase Cannon Turret"
+	gun
+	gun
+	gun
+	gun "Phase Cannon"
+	gun "Phase Cannon"
+
 
 ship "Zidara"
 	sprite "ship/zidara/zidara"
@@ -1372,9 +1363,248 @@ ship "Zidara"
 	explode "tiny explosion" 20
 	description `Zidara.`
 
+ship "Zidara" "Zidara (Turret)"
+	outfits
+		"Phased Disruption Turret" 2
+		"Phased Defense Turret"
+		"Dispersal Rocket Launcher" 2
+		"Dispersal Rocket" 20
+		"Giz System"
+		"Agri-I System" 2
+		"Zidagar ECM System"
+		"Azag-Class Thruster"
+		"Azag-Class Steering"
+	turret "Phased Disruption Turret"
+	turret "Phased Disruption Turret"
+	turret "Phased Defense Turret"
+	gun
+	gun
+	gun
+	gun "Dispersal Rocket Launcher"
+	gun "Dispersal Rocket Launcher"
+
+ship "Zidara" "Zidara (Defense)"
+	outfits
+		"Phased Disruption Laser" 2
+		"Phased Defense Turret" 2
+		"Phase Cannon Turret"
+		"Giz System"
+		"Agri-I System" 2
+		"Zidagar ECM System"
+		"Azag-Class Thruster"
+		"Azag-Class Steering"
+	turret "Phased Defense Turret"
+	turret "Phased Defense Turret"
+	turret "Phase Cannon Turret"
+	gun "Phased Disruption Laser"
+	gun "Phased Disruption Laser"
+	gun
+	gun
+	gun
+
+ship "Zidara" "Zidara (Defense B)"
+	outfits
+		"Phased Defense Turret" 3
+		"Phase Cannon" 5
+		"Giz System"
+		"Agri-I System" 2
+		"Zidagar ECM System"
+		"Shield Matrix Enhancement"
+		"Azag-Class Thruster"
+		"Azag-Class Steering"
 
 
 # Heavy Warships
+
+ship "Elzaria"
+	sprite "ship/elzari/elzari"
+		"frame rate" 8
+	attributes
+		category "Heavy Warship"
+		"cost" 800000
+		"shields" 21000
+		"shield generation" .2
+		"hull" 3000
+		"required crew" 24
+		"bunks" 40
+		"mass" 920
+		"drag" 6.7
+		"fuel capacity" 500
+		"heat dissipation" .6
+		"outfit space" 442
+		"cargo space" 40
+		"weapon capacity" 158
+		"engine capacity" 126
+
+		"jump fuel" 100
+		"jump speed" 1
+		"hyperdrive" 1
+		"hyperdrive sound" "crescent drive"
+		"hyperdrive in sound" "crescent in"
+		"hyperdrive out sound" "crescent out"
+		weapon
+			"blast radius" 48
+			"shield damage" 320
+			"hull damage" 160
+			"hit force" 480
+	outfits
+		"Phase Cannon Turret" 2
+		"Swivel Phase Cannon" 2
+
+		"Agri-G System" 2
+		"Agri-I System"
+		"ECM System"
+
+		"Lazari Graviton Buoy"
+	engine -47.5 160 0.7
+	engine 47.5 160 0.7
+	engine -32 166.5 0.7
+	engine 32 166.5 0.7
+	engine -16 171 0.7
+	engine 16 171 0.7
+	engine 0 173 0.7
+	turret -9 -122 "Swivel Phase Cannon"
+	turret 9 -122 "Swivel Phase Cannon"
+	turret -86.5 20.5 "Phase Cannon Turret"
+	turret 86.5 20.5 "Phase Cannon Turret"
+	gun -80 -82
+	gun 80 -82
+	bay "Fighter" 0 -62
+		"launch effect" "gaza launch"
+	explode "tiny explosion" 20
+	description `Elzari.`
+
+ship "Elzaria" "Elzaria (Turret)"
+	outfits
+		"Phase Cannon Turret" 4
+		"Agri-G System" 2
+		"Agri-I System"
+		"Shield Matrix Enhancement" 2
+		"ECM System"
+		"Lazari Graviton Buoy"
+		"Outfits Expansion"
+
+ship "Elzaria" "Elzaria (Attractor)"
+	outfits
+		"Elzar Tractor Beam" 2
+		"Phase Cannon Turret" 2
+		"Agri-G System" 2
+		"Agri-I System" 2
+		"Shield Matrix Enhancement"
+		"ECM System"
+		"Zonai Radar System"
+		"Lazari Graviton Buoy"
+
+ship "Elzaria" "Elzaria (Repulsor)"
+	outfits
+		"Elzar Repulsor Beam" 2
+		"Phase Cannon Turret" 2
+		"Agri-G System" 2
+		"Agri-I System" 2
+		"Shield Matrix Enhancement"
+		"ECM System"
+		"Lazari Graviton Buoy"
+
+ship "Elzaria" "Elzaria (SAD)"
+	outfits
+		"Phase Cannon Turret" 4
+		"SAD Deployer" 2
+		"SAD Module" 30
+		"Agri-G System" 2
+		"Agri-I System" 1
+		"Shield Matrix Enhancement"
+		"ECM System"
+		"Lazari Graviton Buoy"
+		"Outfits Expansion"
+
+
+ship "Zidagar Elzaria"
+	sprite "ship/elzari/zidagar elzari"
+		"frame rate" 8
+	attributes
+		category "Heavy Warship"
+		"cost" 800000
+		"shields" 21000
+		"shield generation" .2
+		"hull" 3000
+		"required crew" 24
+		"bunks" 40
+		"mass" 920
+		"drag" 6.7
+		"fuel capacity" 600
+		"heat dissipation" .6
+		"ramscoop" 2.9
+		"outfit space" 460
+		"cargo space" 20
+		"weapon capacity" 158
+		"engine capacity" 126
+
+		"jump fuel" 100
+		"jump speed" 1
+		"hyperdrive" 1
+		"hyperdrive sound" "crescent drive"
+		"hyperdrive in sound" "crescent in"
+		"hyperdrive out sound" "crescent out"
+		weapon
+			"blast radius" 48
+			"shield damage" 320
+			"hull damage" 160
+			"hit force" 480
+	outfits
+		"Phased Disruption Turret" 2
+		"Phase Cannon Turret" 2
+		"Dispersal Rocket Launcher" 2
+		"Dispersal Rocket" 20
+
+		"Agri-I System" 3
+		"Zidagar ECM System"
+
+		"Lazari Graviton Buoy"
+	engine -47.5 160 0.7
+	engine 47.5 160 0.7
+	engine -32 166.5 0.7
+	engine 32 166.5 0.7
+	engine -16 171 0.7
+	engine 16 171 0.7
+	engine 0 173 0.7
+	turret -9 -122 "Phased Disruption Turret"
+	turret 9 -122 "Phased Disruption Turret"
+	turret -86.5 20.5 "Phase Cannon Turret"
+	turret 86.5 20.5 "Phase Cannon Turret"
+	gun -80 -82
+	gun 80 -82
+	bay "Fighter" 0 -62
+		"launch effect" "gaza launch"
+	explode "tiny explosion" 20
+	description `Elzari.`
+
+ship "Zidagar Elzaria" "Zidagar Elzaria (Defense)"
+	outfits
+		"Phased Disruption Turret" 2
+		"Phased Defense Turret" 2
+		"Phase Cannon" 2
+		"Agri-I System" 3
+		"Zidagar ECM System"
+		"Lazari Graviton Buoy"
+		"Shield Matrix Enhancement"
+		"Fuel Tank" 2
+		"Outfits Expansion"
+	gun "Phase Cannon"
+	gun "Phase Cannon"
+	turret "Phased Disruption Turret"
+	turret "Phased Disruption Turret"
+	turret "Phased Defense Turret"
+	turret "Phased Defense Turret"
+
+ship "Zidagar Elzaria" "Zidagar Elzaria (Offense)"
+	outfits
+		"Phased Disruption Turret" 4
+		"Agri-I System" 3
+		"Zidagar ECM System"
+		"Shield Matrix Enhancement" 2
+		"Lazari Graviton Buoy"
+		"Fuel Tank" 2
+		"Outfits Expansion"
 
 ship "Gazdira"
 	sprite "ship/gazdira/gazdira"
@@ -1447,6 +1677,78 @@ ship "Gazdira"
 		"launch effect" "gaza launch"
 	explode "tiny explosion" 20
 	description `Gazdira.`
+	
+ship "Gazdira" "Gazdira (Gunship)"
+	outfits
+		"Phase Cannon Turret" 4
+		"Phase Cannon" 3
+		"Agri-G System" 4
+		"ECM System"
+		"Shield Matrix Enhancement"
+		"Azag-Class Thruster"
+		"Za-Class Thruster"
+		"Azag-Class Steering"
+		"Za-Class Steering"
+
+ship "Gazdira" "Gazdira (Dispy)"
+	outfits
+		"Phase Cannon Turret" 4
+		"Dispersal Rocket Launcher" 2
+		"Dispersal Rocket" 20
+		"Agri-G System" 4
+		"ECM System"
+		"Azag-Class Thruster"
+		"Za-Class Thruster"
+		"Azag-Class Steering"
+		"Za-Class Steering"
+	turret "Phase Cannon Turret"
+	turret "Phase Cannon Turret"
+	turret "Phase Cannon Turret"
+	turret "Phase Cannon Turret"
+	gun
+	gun "Dispersal Rocket Launcher"
+	gun "Dispersal Rocket Launcher"
+
+ship "Gazdira" "Gazdira (Pursuit)"
+	outfits
+		"Phase Cannon Turret" 4
+		"Pursuit Missile Launcher" 3
+		"Pursuit Missile" 30
+		"Agri-G System" 4
+		"ECM System"
+		"Azag-Class Thruster"
+		"Za-Class Thruster"
+		"Azag-Class Steering"
+		"Za-Class Steering"
+	turret "Phase Cannon Turret"
+	turret "Phase Cannon Turret"
+	turret "Phase Cannon Turret"
+	turret "Phase Cannon Turret"
+	gun "Pursuit Missile Launcher"
+	gun "Pursuit Missile Launcher"
+	gun "Pursuit Missile Launcher"
+
+ship "Gazdira" "Gazdira (Missileboat)"
+	outfits
+		"Phase Cannon Turret" 2
+		"SAD Deployer" 2
+		"SAD Module" 30
+		"Dispersal Rocket Launcher" 
+		"Dispersal Rocket" 10
+		"Agri-G System" 4
+		"ECM System"
+		"Azag-Class Thruster"
+		"Za-Class Thruster"
+		"Azag-Class Steering"
+		"Za-Class Steering"
+	turret
+	turret "Phase Cannon Turret"
+	turret "Phase Cannon Turret"
+	turret
+	gun "Dispersal Rocket Launcher"
+	gun "SAD Deployer"
+	gun "SAD Deployer"
+
 
 ship "Azdgari Gazdira"
 	sprite "ship/gazdira/azdgari gazdira"
@@ -1527,6 +1829,27 @@ ship "Azdgari Gazdira"
 	explode "tiny explosion" 20
 	description `Gazdira.`
 
+ship "Azdgari Gazdira" "Azdgari Gazdira (Rapid)"
+	outfits
+		"Phase Cannon Turret" 2
+		"Rapid Phase Cannon" 2
+		"Phase Cannon"
+		"Agri-C System" 4
+		"ECM System"
+		"Ga-11 Regenerator"
+		"Azag-Class Thruster"
+		"Za-Class Thruster"
+		"Azag-Class Steering"
+		"Za-Class Steering"
+		"Engine Systems Upgrade"
+	turret "Phase Cannon Turret"
+	turret "Rapid Phase Cannon"
+	turret "Rapid Phase Cannon"
+	turret "Phase Cannon Turret"
+	gun "Phase Cannon"
+	gun
+	gun
+
 ship "Igazra"
 	sprite "ship/igazra/igazra"
 		"frame rate" 6
@@ -1589,6 +1912,49 @@ ship "Igazra"
 	explode "tiny explosion" 20
 	description `Igazra.`
 
+ship "Igazra" "Igazra (Beamer)"
+	outfits
+		"Igadzra Disruption Beamer"
+		"Phase Cannon Turret" 4
+		"Dispersal Rocket Launcher" 2
+		"Dispersal Rocket" 20
+		"SAE Deployer" 3
+		"SAE Module" 60
+		"ECM System"
+		"Shield Matrix Enhancement"
+		"Idigazig Graviton System"
+	turret "Phase Cannon Turret"
+	turret "Igadzra Disruption Beamer"
+	turret "Phase Cannon Turret"
+	turret "Phase Cannon Turret"
+	turret "Phase Cannon Turret"
+	gun "Dispersal Rocket Launcher"
+	gun "Dispersal Rocket Launcher"
+	gun "SAE Deployer"
+	gun "SAE Deployer"
+	gun "SAE Deployer"
+
+ship "Igazra" "Igazra (Plasma)"
+	outfits
+		"Plasma Siphoner"
+		"Phase Cannon Turret" 5
+		"SAE Deployer" 4
+		"SAE Module" 80
+		"ECM System"
+		"Agri-I System"
+		"Idigazig Graviton System"
+	turret "Phase Cannon Turret"
+	turret "Phase Cannon Turret"
+	turret "Phase Cannon Turret"
+	turret "Phase Cannon Turret"
+	turret "Phase Cannon Turret"
+	gun "SAE Deployer"
+	gun "SAE Deployer"
+	gun "Plasma Siphoner"
+	gun "SAE Deployer"
+	gun "SAE Deployer"
+
+
 ship "Igazirada"
 	sprite "ship/igazirada/igazirada"
 		"frame rate" 6
@@ -1603,7 +1969,7 @@ ship "Igazirada"
 		"mass" 1500
 		"drag" 8.1
 		"fuel capacity" 800
-		"heat dissipation" .44
+		"heat dissipation" .46
 		"outfit space" 720
 		"cargo space" 50
 		"weapon capacity" 280
@@ -1651,8 +2017,37 @@ ship "Igazirada"
 		angle -90
 	gun 57 -70 "SAE Deployer"
 		angle 90
+	bay "Fighter" -55 122
+		"angle" -10
+		"under"
+		"launch effect" "gaza launch"
+	bay "Fighter" 55 122
+		"angle" 10
+		"under"
+		"launch effect" "gaza launch"
 	explode "tiny explosion" 20
 	description `Igazirada.`
+
+ship "Igazirada" "Igazirada (Beamer)"
+	outfits
+		"Igadzra Disruption Beamer" 2
+		"Phase Cannon Turret" 4
+		"SAE Deployer" 4
+		"SAE Module" 80
+		"ECM System"
+		"Shield Matrix Enhancement"
+		"Fuel Tank" 2
+		"Idigazig Graviton System"
+	turret "Igadzra Disruption Beamer"
+	turret "Phase Cannon Turret"
+	turret "Igadzra Disruption Beamer"
+	turret "Phase Cannon Turret"
+	turret "Phase Cannon Turret"
+	turret "Phase Cannon Turret"
+	gun "SAE Deployer"
+	gun "SAE Deployer"
+	gun "SAE Deployer"
+	gun "SAE Deployer"
 
 
 # Utility
@@ -1717,8 +2112,25 @@ ship "Mirunisa"
 	explode "tiny explosion" 20
 	description `Mirunisa.`
 
+ship "Mirunisa" "Mirunisa (Repulsor)"
+	outfits
+		"Elzar Repulsor Beam" 2
+		"Giz System" 2
+		"ECM System"
+		"Za-Class Thruster"
+		"Za-Class Steering"
+
+ship "Mirunisa" "Mirunisa (Mines)"
+	outfits
+		"Elzar Repulsor Beam" 2
+		"Giz System" 2
+		"ECM System"
+		"Za-Class Thruster"
+		"Za-Class Steering"
+
+
 ship "Jiunura"
-	sprite "ship/jiunura/jiunura"
+	sprite "ship/jiunura/jiunura d"
 		"frame rate" 4
 	attributes
 		category "Heavy Freighter"
@@ -1728,17 +2140,14 @@ ship "Jiunura"
 		"hull" 6000
 		"required crew" 53
 		"bunks" 57
-		# Up to 3600 (Compare to Deep River)
-		"mass" 1360
-		"drag" 7.3
+		"mass" 640
+		"drag" 8.8
 		"fuel capacity" 800
 		"heat dissipation" .3
 		"outfit space" 308
-		# Up to 600? (Compare to Deep River)
-		"cargo space" 600
+		"cargo space" 900
 		"weapon capacity" 105
 		"engine capacity" 112
-
 		"jump fuel" 100
 		"jump speed" 1
 		"hyperdrive" 1
@@ -1751,10 +2160,9 @@ ship "Jiunura"
 			"hull damage" 160
 			"hit force" 480
 	outfits
-		"Phase Cannon Turret" 2
 		"Elzar Repulsor Beam"
-		"Mirau Pod Deployer" 2
-		"Mirau Pod" 20
+		"Mirau Pod Deployer" 4
+		"Mirau Pod" 40
 
 		"Giz System" 3
 		"ECM System"
@@ -1789,10 +2197,8 @@ ship "Jiunura"
 		over
 	engine 2.5 -130 0.8
 		over
-	engine -116 240
-	engine 116 240
-	turret -79 -153 "Phase Cannon Turret"
-	turret 79 -153 "Phase Cannon Turret"
+	turret -79 -153 "Mirau Pod Deployer"
+	turret 79 -153 "Mirau Pod Deployer"
 	turret 0 -76.5 "Elzar Repulsor Beam"
 	turret -60 92.5 "Mirau Pod Deployer"
 	turret 60 92.5 "Mirau Pod Deployer"
@@ -1800,6 +2206,43 @@ ship "Jiunura"
 	gun 35.5 -241.5
 	explode "tiny explosion" 20
 	description `Jiunura.`
+
+ship "Jiunura" "Jiunura (A)"
+	sprite "ship/jiunura/jiunura"
+	add attributes
+		"mass" -280
+		"drag" -1.4
+		"cargo space" -840
+	turret "Mirau Pod Deployer"
+	turret "Mirau Pod Deployer"
+	turret "Elzar Repulsor Beam"
+	turret "Mirau Pod Deployer"
+	turret "Mirau Pod Deployer"
+
+ship "Jiunura" "Jiunura (B)"
+	sprite "ship/jiunura/jiunura b"
+	add attributes
+		"mass" -160
+		"drag" -.6
+		"cargo space" -480
+	turret "Mirau Pod Deployer"
+	turret "Mirau Pod Deployer"
+	turret "Elzar Repulsor Beam"
+	turret "Mirau Pod Deployer"
+	turret "Mirau Pod Deployer"
+
+ship "Jiunura" "Jiunura (C)"
+	sprite "ship/jiunura/jiunura c"
+	add attributes
+		"mass" -120
+		"drag" -.8
+		"cargo space" -360
+	turret "Mirau Pod Deployer"
+	turret "Mirau Pod Deployer"
+	turret "Elzar Repulsor Beam"
+	turret "Mirau Pod Deployer"
+	turret "Mirau Pod Deployer"
+
 
 # Launches
 

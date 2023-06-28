@@ -545,10 +545,10 @@ outfit "Plasma Siphoner"
 		"inaccuracy" 18
 		"velocity" 8
 		"lifetime" 55
-		"reload" 3
+		"reload" 2
 		"firing fuel" 1.2
-		"firing energy" 40
-		"firing heat" 100
+		"firing energy" 32
+		"firing heat" 60
 		"corrosion damage" 1.2
 		"piercing" .05
 		"hit force" 300
@@ -773,7 +773,7 @@ outfit "Za-Class Thruster"
 	"thrusting energy" 2.6
 	"thrusting heat" 4.8
 	"flare sprite" "effect/bunrodea flare/large"
-		"scale" 0.3
+		"scale" 0.5
 		"frame rate" 7
 	"flare sound" "ion small"
 	description `Test.`
@@ -791,7 +791,6 @@ outfit "Azag-Class Thruster"
 	"thrusting energy" 8.7
 	"thrusting heat" 15.9
 	"flare sprite" "effect/bunrodea flare/large"
-		"scale" 0.8
 		"frame rate" 7
 	"flare sound" "ion medium"
 	description `Test.`
@@ -809,7 +808,7 @@ outfit "Za-Class Steering"
 	"turning energy" 1.5
 	"turning heat" 3
 	"steering flare sprite" "effect/bunrodea flare/large"
-		"scale" 0.3
+		"scale" 0.5
 		"frame rate" 7.5
 	"steering flare sound" "ion small"
 	description `Test.`
@@ -827,7 +826,6 @@ outfit "Azag-Class Steering"
 	"turning energy" 4.6
 	"turning heat" 8.6
 	"steering flare sprite" "effect/bunrodea flare/large"
-		"scale" 0.8
 		"frame rate" 7
 	"steering flare sound" "ion medium"
 	description `Test.`

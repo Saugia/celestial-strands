@@ -11,7 +11,6 @@
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
-
 planet Adgazia
 	attributes azdgari
 	spaceport Test.
@@ -40,7 +39,7 @@ planet Arno
 planet Atern
 	attributes giaradz
 	spaceport Test.
-	government Giaradz
+	government "Strandless (Friendly)"
 	security 0
 
 planet Biloq
@@ -59,13 +58,11 @@ planet Bokan
 planet Cotu
 	attributes giaradz
 	spaceport Test.
-	government Giaradz
+	government "Strandless (Friendly)"
 	bribe 0
 	security 0
 
 planet "Crescent Gate"
-	#attributes "requires: crescent hypergate access"
-	wormhole "Crescent Gate"
 
 wormhole "Crescent Gate"
 	mappable
@@ -117,7 +114,7 @@ planet Eapuva
 planet Edol
 	attributes giaradz
 	spaceport Test.
-	government Giaradz
+	government "Strandless (Friendly)"
 	bribe 0
 	security 0
 
@@ -192,14 +189,14 @@ planet Gubasa
 planet Hegas
 	attributes giaradz
 	spaceport Test.
-	government Giaradz
+	government "Strandless (Friendly)"
 	bribe 0
 	security 0
 
 planet Herna
 	attributes giaradz moon
 	spaceport Test.
-	government Giaradz
+	government "Strandless (Friendly)"
 	bribe 0
 	security 0
 
@@ -238,7 +235,7 @@ planet Iltes
 planet Inis
 	attributes giaradz
 	spaceport Test.
-	government Giaradz
+	government "Strandless (Friendly)"
 	bribe 0
 	security 0
 
@@ -259,7 +256,7 @@ planet Iradon
 planet Iranar
 	attributes giaradz moon
 	spaceport Test.
-	government Giaradz
+	government "Strandless (Friendly)"
 	bribe 0
 	security 0
 
@@ -286,14 +283,14 @@ planet Kel
 planet Kernil
 	attributes giaradz
 	spaceport Test.
-	government Giaradz
+	government "Strandless (Friendly)"
 	bribe 0
 	security 0
 
 planet Kijaro
 	attributes giaradz
 	spaceport Test.
-	government Giaradz
+	government "Strandless (Friendly)"
 	bribe 0
 	security 0
 
@@ -448,14 +445,14 @@ planet Selisa
 planet Shuge
 	attributes giaradz
 	spaceport Test.
-	government Giaradz
+	government "Strandless (Friendly)"
 	bribe 0
 	security 0
 
 planet Sozsua
 	attributes giaradz
 	spaceport Test.
-	government Giaradz
+	government "Strandless (Friendly)"
 	bribe 0
 	security 0
 
@@ -608,7 +605,7 @@ planet Zigzad
 planet Zin
 	attributes giaradz
 	spaceport Test.
-	government Giaradz
+	government "Strandless (Friendly)"
 	bribe 0
 	security 0
 
