@@ -175,6 +175,7 @@ event "revealStrands"
 	visit NZG-0631
 	visit NZG-020
 	visit NZG-030
+
 event "defaultRep"
 	"reputation: Zachit" = 0.1
 	"reputation: Miranu" = 1
