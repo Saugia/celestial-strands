@@ -19,10 +19,10 @@ Initial Release of Celestial Strands.
 		* Adds 36 new oufits derived from ones in Escape Velocity: Override.
 
 ------------------------------------------
-### Version: 0.0.1 Alpha (6/16/2023)
+### Version: 0.0.2 Alpha (6/29/2023)
 ------------------------------------------
 
-Major Update.
+Major Update ft. Fleets & Variants.
 
 * Changelog
 	* Dev
