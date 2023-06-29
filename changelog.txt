@@ -28,6 +28,7 @@ Major Update.
 	* Dev
 		* Cleans up intro; changes the start credits to be 100M so anything can be purchased.
 		* Adds a mission to reveal the map on Hariza.
+		* Other various QoL changes.
 		
 	* General
 		* Adjusts a few governments.

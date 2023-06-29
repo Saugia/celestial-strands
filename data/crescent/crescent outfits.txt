@@ -674,7 +674,7 @@ outfit "Engine Systems Upgrade"
 outfit "Zonai Radar System"
 	category "Systems"
 	cost 24000
-	thumbnail "outfit/crescent scanner"
+	thumbnail "outfit/zonai radar"
 	"mass" 3
 	"outfit space" -3
 	"outfit scan power" 30
