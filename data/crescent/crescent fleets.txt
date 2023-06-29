@@ -237,7 +237,7 @@ fleet "Crescent Militia"
 	personality heroic
 	variant 40
 		"Gazda"
-	variant 10
+	variant 6
 		"Gazda" 2
 	variant 8
 		"Lizada"
@@ -272,6 +272,7 @@ fleet "Zachit Militia"
 	variant 1
 		"Zachit Lizada (Missileboat)"
 
+
 fleet "Miranu"
 	government Miranu
 	#names "miranu"
@@ -288,58 +289,146 @@ fleet "Miranu"
 	variant
 		"Jiunura (C)"
 
----------------------------------------------
-
-
-
-
-
-
-
 
 fleet "Zidagar Militia"
 	government Zidagar
 	#names "zidagar"
 	cargo 2
 	personality heroic
-	variant 36
+	variant 50
 		"Zidagar Gazda"
-	variant 14
+	variant 35
+		"Zidagar Gazda" 2
+	variant
 		"Zidara"
 		"Zidagar Gazda" 2
-	variant 2
+	variant
+		"Zidara (Defense)"
+		"Zidagar Gazda" 2
+
+
+fleet "Zidagar"
+	government Zidagar
+	#names "zidagar"
+	cargo 2
+	personality heroic
+	variant 20
+		"Zidara"
+		"Zidagar Gazda" 2
+	variant 5
+		"Zidara (Turret)"
+		"Zidagar Gazda" 2
+	variant 15
+		"Zidara (Defense)"
+		"Zidagar Gazda" 2
+	variant 4
 		"Zidagar Elzaria"
 		"Zidagar Gazda"
+	variant 2
+		"Zidagar Elzaria (Offense)"
+		"Zidagar Gazda"
+	variant 2
+		"Zidagar Elzaria (Defense)"
+		"Zidagar Gazda"
 
-fleet "Igadzra Militia"
+
+fleet "Igadzra"
 	government Igadzra
 	#names "igadzra"
 	cargo 2
 	personality heroic
-	variant 42
+	variant 40
 		"Igadzra Arada"
-	variant 10
+	variant 5
+		"Igadzra Arada (SAE)"
+	variant 11
 		"Igadzra Aridara"
-	variant 10
+	variant 5
+		"Igadzra Aridara (SAE)"
+	variant 8
+		"Igadzra Aridara (Siphon)"
+
+
+fleet "Igadzra Large"
+	government Igadzra
+	#names "igadzra"
+	cargo 2
+	personality heroic
+	variant 18
 		"Igazra"
-	variant
+	variant 6
+		"Igazra (Beamer)"
+	variant 10
+		"Igazra (Plasma)"
+	variant 1
 		"Igazirada"
+	variant 1
+		"Igazirada (Beamer)"
+
 
 fleet "Azdgari Militia"
 	government Azdgari
 	#names "azdgari"
 	cargo 2
 	personality heroic
-	variant 56
+	variant 40
 		"Azdara"
-	variant "16"
+	variant 10
+		"Azdara (Rapid)"
+	variant 10
 		"Azigda"
-	variant 39
+	variant
+		"Azdara" 6
+	variant
+		"Azigda" 3
+
+
+fleet "Azdgari"
+	government Azdgari
+	#names "azdgari"
+	cargo 2
+	personality heroic
+	variant 40
 		"Azdgari Arada"
-	variant 12
+	variant 30
+		"Azdgari Arada (Rapid)"
+	variant 10
+		"Azdgari Arada (Gunboat)"
+	variant 10
+		"Azdara"
+	variant 5
+		"Azdara (Rapid)"
+	variant 10
+		"Azigda"
+	variant 5
+		"Azigda (Dispy)"
+
+
+fleet "Azdgari Large"
+	government Azdgari
+	#names "azdgari"
+	cargo 2
+	personality heroic
+	variant 6
 		"Azdgari Gazdira"
 		"Azdara" 6
-	variant 8
+	variant 1
+		"Azdgari Gazdira (Rapid)"
+		"Azdara" 4
+		"Azdara (Rapid)" 2
+	variant 3
 		"Azdgari Gazdira"
-		"Azdara" 3
-		"Azigda" 3
+		"Azdara" 4
+		"Azigda" 2
+	variant 1
+		"Azdgari Gazdira (Rapid)"
+		"Azdara (Rapid)" 2
+		"Azigda" 4
+	variant 1
+		"Azdgari Gazdira (Rapid)"
+		"Azdara"  4
+		"Azigda (Dispy)" 2
+	variant 1
+		"Azdgari Gazdira"
+		"Azigda" 4
+		"Azigda (Dispy)"

@@ -42,9 +42,14 @@ planet Atern
 	government "Strandless (Friendly)"
 	security 0
 
+planet Basteron
+	attributes strandless
+	spaceport Test.
+	government Strandless
+	security 0
+
 planet Biloq
 	attributes uninhabited
-	spaceport Test.
 	government Uninhabited
 	bribe 0
 	security 0
@@ -63,6 +68,9 @@ planet Cotu
 	security 0
 
 planet "Crescent Gate"
+	attributes "requires: supergate system"
+	spaceport ``
+	wormhole "Crescent Gate"
 
 wormhole "Crescent Gate"
 	mappable
@@ -71,7 +79,8 @@ wormhole "Crescent Gate"
 	link Adgazia Zidizarg
 
 planet "Crescent Wormhole"
-
+	wormhole "Crescent Wormhole"
+	
 wormhole "Crescent Wormhole"
 	mappable
 	link Horizo Hariza
@@ -102,6 +111,12 @@ planet Doryo
 	spaceport Test.
 	government Zidagar
 	bribe 0
+	security 0
+
+planet Destar
+	attributes strandless moon
+	spaceport Test.
+	government Strandless
 	security 0
 
 planet Eapuva
@@ -274,6 +289,12 @@ planet Itelis
 	bribe 0
 	security 0
 
+planet Jartro
+	attributes strandless
+	spaceport Test.
+	government Strandless
+	security 0
+
 planet Kel
 	attributes moon uninhabited
 	government Uninhabited
@@ -343,7 +364,6 @@ planet Myu
 
 planet "New Council"
 	attributes station uninhabited
-	spaceport Test.
 	government Uninhabited
 	bribe 0
 	security 0
@@ -393,6 +413,13 @@ planet Ornoi
 	attributes moon zachit
 	spaceport Test.
 	government Zachit
+	bribe 0
+	security 0
+
+planet Ostalot
+	attributes moon igadzra
+	spaceport Test.
+	government Igadzra
 	bribe 0
 	security 0
 

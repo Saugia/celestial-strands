@@ -306,7 +306,8 @@ ship "Azdara"
 
 		"Giz System"
 		"ECM System"
-		
+		"Zonai Radar System"
+
 		"Za-Class Thruster"
 		"Za-Class Steering"
 	engine 0 12.5 0.8
@@ -1402,17 +1403,6 @@ ship "Zidara" "Zidara (Defense)"
 	gun
 	gun
 
-ship "Zidara" "Zidara (Defense B)"
-	outfits
-		"Phased Defense Turret" 3
-		"Phase Cannon" 5
-		"Giz System"
-		"Agri-I System" 2
-		"Zidagar ECM System"
-		"Shield Matrix Enhancement"
-		"Azag-Class Thruster"
-		"Azag-Class Steering"
-
 
 # Heavy Warships
 
@@ -2088,6 +2078,7 @@ ship "Mirunisa"
 
 		"Giz System" 2
 		"ECM System"
+		"Supergate Navigation System"
 
 		"Za-Class Thruster"
 		"Za-Class Steering"
@@ -2143,7 +2134,7 @@ ship "Jiunura"
 		"mass" 640
 		"drag" 8.8
 		"fuel capacity" 800
-		"heat dissipation" .3
+		"heat dissipation" .4
 		"outfit space" 308
 		"cargo space" 900
 		"weapon capacity" 105
@@ -2166,6 +2157,7 @@ ship "Jiunura"
 
 		"Giz System" 3
 		"ECM System"
+		"Supergate Navigation System"
 
 		"Za-Class Thruster"
 		"Za-Class Steering"

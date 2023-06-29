@@ -685,6 +685,15 @@ outfit "Zonai Radar System"
 	description `Scanner.`
 
 
+outfit "Supergate Navigation System"
+	category "Systems"
+	cost 24000
+	thumbnail "outfit/unknown"
+	mass 10
+	"outfit space" -10
+	"supergate system" 1
+	description `Supergate Navigation System.`
+
 
 # Power
 

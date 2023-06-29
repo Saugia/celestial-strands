@@ -27,14 +27,17 @@ system Adgazia
 	asteroids "small rock" 2 3.81
 	asteroids "medium rock" 3 4.269
 	asteroids "large rock" 2 2.433
-	asteroids "small metal" 67 3.856
+	asteroids "small metal" 7 3.856
 	asteroids "medium metal" 12 3.121
-	asteroids "large metal" 83 2.708
+	asteroids "large metal" 13 2.708
 	minables tungsten 1 6.208
 	minables copper 5 5.594
-	minables iron 11 6.285
-	fleet "Giaradz Merchants" 400
+	minables iron 6 6.285
+	fleet "Strandless Merchants" 500
+	fleet "Strandless Merchants Large" 3000
 	fleet "Azdgari Militia" 200
+	fleet Azdgari 200
+	fleet "Azdgari Large" 1000
 	fleet Miranu 1600
 	object
 		sprite star/k5
@@ -95,8 +98,8 @@ system Akfon
 	asteroids "large metal" 42 6.51
 	minables iron 8 11.121
 	minables lead 28 8.99
-	fleet "Azdgari Militia" 1100
-	fleet "Giaradz Merchants" 1300
+	fleet Azdgari 1100
+	fleet "Strandless Merchants" 1300
 	object
 		sprite star/m8
 		period 10
@@ -131,6 +134,10 @@ system Alcogi
 	minables iron 1 4.104
 	minables lead 3 4.256
 	minables titanium 16 4.909
+	fleet "Giaradz Merchants" 800
+	fleet Igadzra 600
+	fleet "Igadzra Large" 3600
+	fleet Miranu 5000
 	object
 		sprite star/a-dwarf
 		period 10
@@ -192,9 +199,12 @@ system Alogok
 	minables platinum 4 9.595
 	minables lead 9 9.289
 	minables iron 11 9.284
-	fleet "Azdgari Militia" 500
-	fleet "Giaradz Merchants" 1400
+	fleet "Azdgari Militia" 600
+	fleet Azdgari 800
+	fleet "Azdgari Large" 4000
+	fleet "Strandless Merchants" 1400
 	fleet Strandless 1200
+	fleet "Strandless Large" 3000
 	object
 		sprite star/g8
 		period 10
@@ -254,8 +264,11 @@ system Atern
 	asteroids "medium metal" 76 5.933
 	asteroids "large metal" 6 6.07
 	minables copper 3 6.737
-	fleet "Giaradz Merchants" 500
-	fleet "Azdgari Militia" 900
+	fleet "Strandless Merchants" 500
+	fleet "Strandless Merchants" 4000
+	fleet "Azdgari Militia" 600
+	fleet Azdgari 2000
+	fleet "Azdgari Large" 4000
 	object
 		sprite star/k0-old
 		period 10
@@ -384,8 +397,9 @@ system Bakhax
 	asteroids "large metal" 1 4.056
 	minables tungsten 2 7.432
 	minables lead 2 7.12
-	fleet "Giaradz Merchants" 600
-	fleet "Igadzra Militia" 300
+	fleet "Strandless Merchants" 600
+	fleet Igadzra 300
+	fleet Igadzra 2000
 	fleet Miranu 4000
 	object
 		sprite star/o-dwarf
@@ -423,8 +437,8 @@ system Balfar
 	link Urgast
 	link Yotli
 	asteroids "large metal" 1 5.162
-	fleet "Giaradz Merchants" 700
-	fleet "Azdgari Militia" 1300
+	fleet "Strandless Merchants" 700
+	fleet Azdgari 1300
 	object
 		sprite star/b3
 		period 10
@@ -458,8 +472,10 @@ system Bir
 	asteroids "medium metal" 19 6.77
 	asteroids "large metal" 1 6.406
 	minables tungsten 2 13.272
-	fleet "Giaradz Merchants" 600
+	fleet "Strandless Merchants" 600
+	fleet "Giaradz Merchants" 4000
 	fleet Strandless 2000
+	fleet "Strandless Large" 4000
 	fleet "Zidagar Militia" 2000
 	object
 		sprite star/k8
@@ -508,9 +524,14 @@ system Cenzset
 	asteroids "large metal" 20 2.365
 	minables iron 9 3.656
 	minables silver 16 3.568
-	fleet "Giaradz Merchants" 400
-	fleet "Igadzra Militia" 5000
-	fleet "Zidagar Militia" 6000
+	fleet "Strandless Merchants" 400
+	fleet "Strandless Merchants Large" 8000
+	fleet Strandless 2000
+	fleet "Strandless Large" 6000
+	fleet Igadzra 8000
+	fleet "Igadzra Large" 14000
+	fleet "Crescent Militia" 1000
+	fleet Zidagar 7000
 	object
 		sprite star/g5
 		period 10
@@ -566,9 +587,11 @@ system Ciban
 	asteroids "large metal" 1 1.306
 	minables platinum 1 1.971
 	minables iron 3 2.05
-	fleet "Giaradz Merchants" 600
-	fleet Strandless 6000
-	fleet "Zidagar Militia" 1000
+	fleet "Strandless Merchants" 600
+	fleet "Strandless Merchants Large" 2000
+	fleet Strandless 4000
+	fleet "Zidagar Militia" 2000
+	fleet Zidagar 2000
 	object
 		sprite planet/browndwarf-y-rouge
 		period 10
@@ -606,7 +629,8 @@ system Cyon
 	minables lead 1 4.057
 	minables uranium 17 4.724
 	fleet "Giaradz Merchants" 300
-	fleet "Igadzra Militia" 600
+	fleet "Giaradz Merchants Large" 3000
+	fleet Igadzra 700
 	fleet Miranu 2600
 	object
 		sprite star/k3
@@ -660,8 +684,7 @@ system Daeln
 	asteroids "large metal" 4 2.046
 	minables tungsten 2 4.299
 	minables neodymium 5 3.293
-	fleet "Giaradz Merchants" 2000
-	fleet "Zidagar Militia" 2200
+	fleet "Strandless Merchants" 2000
 	object
 		sprite star/k-supergiant
 		period 10
@@ -718,7 +741,7 @@ system Defa
 	minables titanium 5 3.409
 	minables tungsten 7 3.191
 	fleet "Giaradz Merchants" 3000
-	fleet "Igadzra Militia" 500
+	fleet Igadzra 500
 	object
 		sprite star/k0
 		period 10
@@ -785,8 +808,9 @@ system Egnar
 	asteroids "medium metal" 9 3.36
 	asteroids "large metal" 1 5.645
 	minables lead 6 9.038
-	fleet "Giaradz Merchants" 400
-	fleet "Igadzra Militia" 300
+	fleet "Strandless Merchants" 400
+	fleet Igadzra 300
+	fleet "Igadzra Large" 2000
 	fleet Miranu 4000
 	object
 		sprite star/b-dwarf
@@ -861,9 +885,10 @@ system Elirop
 	asteroids "small metal" 60 2.907
 	asteroids "medium metal" 44 3.306
 	asteroids "large metal" 152 2.964
-	fleet "Giaradz Merchants" 800
-	fleet "Igadzra Militia" 4000
-	fleet "Zidagar Militia" 6000
+	fleet "Strandless Merchants" 800
+	fleet Igadzra 1000
+	fleet "Igadzra Large" 5000
+	fleet Zidagar 2000
 	object
 		sprite star/f-supergiant
 		period 10
@@ -928,8 +953,10 @@ system Emohl
 	minables copper 4 2.146
 	minables silver 6 4.18
 	minables iron 9 3.181
-	fleet "Giaradz Merchants" 700
-	fleet "Azdgari Militia" 700
+	fleet "Strandless Merchants" 500
+	fleet "Azdgari Militia" 500
+	fleet Azdgari 400
+	fleet "Azdgari Large" 3000
 	object
 		sprite star/k3
 		period 10
@@ -983,10 +1010,10 @@ system Eqato
 	asteroids "large metal" 17 3.078
 	minables iron 12 4.989
 	minables lead 12 7.457
-	fleet "Giaradz Merchants" 1600
+	fleet "Strandless Merchants" 1600
 	fleet Strandless 2400
-	fleet "Zidagar Militia" 10000
-	fleet "Azdgari Militia" 7000
+	fleet Zidagar 10000
+	fleet Azdgari 7000
 	object
 		sprite star/k-dwarf
 		period 10
@@ -1019,7 +1046,7 @@ system Ezgakk
 	asteroids "large metal" 6 1.19
 	fleet "Giaradz Merchants" 4000
 	fleet Strandless 900
-	fleet "Zidagar Militia" 6000
+	fleet Zidagar 6000
 	object
 		sprite star/l-dwarf
 		period 10
@@ -1053,8 +1080,9 @@ system Gidyi
 	asteroids "large metal" 25 2.413
 	minables aluminum 12 4.899
 	fleet "Azdgari Militia" 5000
-	fleet "Giaradz Merchants" 10000
+	fleet "Strandless Merchants" 10000
 	fleet Strandless 400
+	fleet "Strandless Large" 2000
 	object
 		sprite star/o-giant
 		period 10
@@ -1104,10 +1132,6 @@ system Hariza
 	belt 2019 3
 	asteroids "small rock" 12 3.45
 	minables copper 5 5.917
-	fleet "Giaradz Merchants" 50
-	fleet "Giaradz Merchants Large" 200
-	fleet Strandless 500
-	fleet "Strandless Large" 1000
 	object
 		sprite star/b0
 		period 10
@@ -1270,8 +1294,12 @@ system Igazidra
 	minables tungsten 8 5.163
 	minables aluminum 11 4.859
 	minables uranium 17 3.165
-	fleet "Giaradz Merchants" 300
-	fleet "Igadzra Militia" 200
+	fleet "Strandless Merchants" 400
+	fleet "Strandless Merchants Large" 4000
+	fleet "Giaradz Merchants" 600
+	fleet "Giaradz Merchants Large" 6000
+	fleet Igadzra 200
+	fleet "Igadzra Large" 900
 	fleet Miranu 1200
 	object
 		sprite star/g5
@@ -1284,7 +1312,7 @@ system Igazidra
 		sprite planet/rock12
 		distance 1107.676
 		period 449.395
-		object Preisa
+		object Ostalot
 			sprite planet/dust1-b
 			distance 180
 			period 75.108
@@ -1326,8 +1354,9 @@ system Iuco
 	asteroids "large metal" 1 2.332
 	minables copper 1 4.017
 	minables iron 2 4.071
-	fleet "Giaradz Merchants" 600
+	fleet "Strandless Merchants" 600
 	fleet "Zidagar Militia" 1000
+	fleet Zidagar 2000
 	fleet Miranu 4000
 	object
 		sprite star/g3
@@ -1403,8 +1432,9 @@ system Jutili
 	asteroids "large metal" 5 2.535
 	minables aluminum 34 7.056
 	minables lead 36 4.03
-	fleet "Giaradz Merchants" 600
-	fleet "Igadzra Militia" 300
+	fleet "Strandless Merchants" 600
+	fleet Igadzra 600
+	fleet Igadzra 3000
 	fleet Miranu 2400
 	object
 		sprite star/k3
@@ -1469,8 +1499,8 @@ system Jwoli
 	asteroids "large metal" 13 2.312
 	minables iron 4 4.411
 	minables titanium 14 4.987
-	fleet "Giaradz Merchants" 3000
-	fleet "Azdgari Militia" 4000
+	fleet "Strandless Merchants" 3000
+	fleet Azdgari 4000
 	object
 		sprite star/k5
 		period 10
@@ -1507,11 +1537,12 @@ system Killis
 	asteroids "large metal" 38 2.136
 	minables lead 2 2.865
 	minables iron 9 3.567
-	fleet "Giaradz Merchants" 400
-	fleet "Crescent Militia" 500
+	fleet "Strandless Merchants" 600
+	fleet "Giaradz Merchants" 1200
+	fleet "Crescent Militia" 1200
 	fleet Strandless 2000
-	fleet "Azdgari Militia" 9000
-	fleet "Igadzra Militia" 7000
+	fleet Azdgari 9000
+	fleet Igadzra 7000
 	object
 		sprite star/g5
 		period 10
@@ -1558,10 +1589,11 @@ system Krat
 	minables tungsten 36 7.538
 	minables lead 29 4.739
 	minables titanium 89 4.657
-	fleet "Giaradz Merchants" 2000
-	fleet Strandless 1600
-	fleet "Zidagar Militia" 3000
-	fleet "Igadzra Militia" 4000
+	fleet "Strandless Merchants" 2000
+	fleet Strandless 2000
+	fleet Zidagar 3000
+	fleet Igadzra 4000
+	fleet Igadzra 8000
 	object
 		sprite star/m4
 		distance 89.42
@@ -1611,7 +1643,9 @@ system Lenif
 	asteroids "large metal" 1 2.033
 	minables aluminum 19 3.192
 	fleet "Azdgari Militia" 500
-	fleet "Giaradz Merchants" 700
+	fleet Azdgari 500
+	fleet "Azdgari Large" 2000
+	fleet "Strandless Merchants" 700
 	fleet Miranu 2800
 	object
 		sprite star/g0
@@ -1696,8 +1730,8 @@ system Liuga
 	minables neodymium 1 9.251
 	minables lead 1 6.708
 	minables aluminum 1 7.765
-	fleet "Giaradz Merchants" 1000
-	fleet "Igadzra Militia" 600
+	fleet "Giaradz Merchants" 1200
+	fleet Igadzra 800
 	object
 		sprite star/o-supergiant
 		period 10
@@ -1964,8 +1998,8 @@ system NZG-112
 	asteroids "medium metal" 1 2.566
 	asteroids "large metal" 4 2.02
 	minables copper 2 3.214
-	fleet "Giaradz Merchants" 1400
-	fleet "Azdgari Militia" 4000
+	fleet "Strandless Merchants" 2000
+	fleet Azdgari 3000
 	object
 		sprite star/o-giant
 		period 10
@@ -2113,7 +2147,7 @@ system NZG-309
 	asteroids "medium metal" 71 4.423
 	asteroids "large metal" 8 5.22
 	minables iron 10 8.942
-	fleet "Giaradz Merchants" 1400
+	fleet "Strandless Merchants" 1400
 	fleet Strandless 1000
 	object
 		sprite star/l-dwarf
@@ -2206,9 +2240,8 @@ system NZG-401
 	asteroids "medium metal" 49 1.763
 	asteroids "large metal" 1 1.734
 	minables aluminum 2 2.479
-	fleet "Giaradz Merchants" 5000
-	fleet Strandless 2600
-	fleet "Azdgari Militia" 10000
+	fleet "Strandless Merchants" 5000
+	fleet Strandless 3000
 	object
 		sprite star/m-giant
 		period 10
@@ -2264,8 +2297,8 @@ system NZG-412
 	asteroids "large metal" 5 4.051
 	minables copper 1 4.286
 	minables silver 5 3.883
-	fleet "Azdgari Militia" 2000
-	fleet "Giaradz Merchants" 10000
+	fleet Azdgari 2000
+	fleet "Strandless Merchants" 10000
 	fleet Strandless 1300
 	object
 		sprite star/m5
@@ -2346,7 +2379,7 @@ system NZG-5165
 	asteroids "small metal" 1 3.16
 	asteroids "medium metal" 4 3.28
 	asteroids "large metal" 1 3.72
-	fleet "Giaradz Merchants" 5000
+	fleet "Strandless Merchants" 6000
 	object
 		sprite star/o5
 		period 10
@@ -2373,7 +2406,7 @@ system NZG-5612
 	link Vylatis
 	asteroids "large metal" 1 4.315
 	fleet "Giaradz Merchants" 3000
-	fleet Strandless 8000
+	fleet Strandless 4000
 	fleet "Zidagar Militia" 2000
 	object
 		sprite star/m5
@@ -2423,6 +2456,8 @@ system NZG-7762
 	asteroids "large metal" 1 2.684
 	minables aluminum 1 5.253
 	minables titanium 1 4.407
+	fleet "Giaradz Merchants" 1000
+	fleet Zidagar 2000
 	object
 		sprite star/o-dwarf
 		distance 99.086
@@ -2460,8 +2495,8 @@ system NZG-7805
 	asteroids "large metal" 1 3.232
 	minables titanium 2 7.969
 	minables aluminum 3 7.688
-	fleet "Giaradz Merchants" 5000
-	fleet "Igadzra Militia" 3000
+	fleet "Strandless Merchants" 5000
+	fleet Igadzra 3000
 	object
 		sprite star/k5
 		period 10
@@ -2500,7 +2535,7 @@ system NZG-816
 	asteroids "large metal" 1 2.65
 	minables iron 12 3.788
 	minables titanium 13 4.316
-	fleet Strandless 700
+	fleet Strandless 1000
 	object
 		sprite star/g8
 		period 10
@@ -2652,8 +2687,8 @@ system Nimeloni
 	asteroids "medium metal" 20 5.405
 	asteroids "large metal" 4 4.641
 	minables lead 2 5.105
-	fleet "Giaradz Merchants" 400
-	fleet "Azdgari Militia" 3000
+	fleet "Strandless Merchants" 600
+	fleet Azdgari 2000
 	object
 		sprite star/k3
 		distance 148.1
@@ -2801,7 +2836,8 @@ system Nusu
 	minables tungsten 7 2.472
 	minables neodymium 21 2.263
 	fleet "Giaradz Merchants" 600
-	fleet "Igadzra Militia" 500
+	fleet Igadzra 500
+	fleet "Igadzra Large" 4000
 	fleet Miranu 3400
 	object
 		sprite star/k0
@@ -2848,8 +2884,9 @@ system Oa
 	asteroids "medium metal" 23 0.665
 	asteroids "large metal" 3 1.198
 	minables titanium 3 1.07
-	fleet "Giaradz Merchants" 3600
+	fleet "Strandless Merchants" 3600
 	fleet Strandless 600
+	fleet "Strandless Large" 4000
 	object
 		sprite star/b-dwarf
 		distance 119.108
@@ -2934,8 +2971,8 @@ system Olozera
 	minables iron 1 4.331
 	minables titanium 13 6.703
 	minables neodymium 15 7.601
-	fleet "Azdgari Militia" 10000
 	fleet Strandless 200
+	fleet "Strandless Large" 1200
 	object
 		sprite star/k0-old
 		period 10
@@ -2991,8 +3028,9 @@ system Ornis
 	minables lead 1 3.438
 	minables aluminum 1 2.915
 	minables titanium 2 3.798
-	fleet "Giaradz Merchants" 400
-	fleet "Zidagar Militia" 300
+	fleet "Strandless Merchants" 600
+	fleet "Zidagar Militia" 1400
+	fleet Zidagar 1000
 	fleet Miranu 3000
 	object
 		sprite star/m4
@@ -3163,8 +3201,9 @@ system Puva
 	minables uranium 11 3.406
 	minables titanium 15 4.29
 	minables silicon 37 3.578
-	fleet "Giaradz Merchants" 500
-	fleet "Zidagar Militia" 300
+	fleet "Strandless Merchants" 500
+	fleet "Zidagar Militia" 1000
+	fleet Zidagar 1000
 	fleet Miranu 6000
 	object
 		sprite star/o-dwarf
@@ -3206,8 +3245,9 @@ system Qonaz
 	belt 1369 5
 	link Oa
 	asteroids "large metal" 1 1.17
-	fleet "Giaradz Merchants" 3000
+	fleet "Strandless Merchants" 3000
 	fleet Strandless 300
+	fleet "Strandless Large" 2000
 	object
 		sprite star/f0
 		period 10
@@ -3262,10 +3302,10 @@ system Quetol
 	asteroids "large metal" 1 2.66
 	minables neodymium 1 3.586
 	minables aluminum 1 4.231
-	fleet "Giaradz Merchants" 1200
+	fleet "Strandless Merchants" 1200
 	fleet Strandless 1800
-	fleet "Zidagar Militia" 7000
-	fleet "Igadzra Militia" 10000
+	fleet Zidagar 7000
+	fleet Igadzra 10000
 	object
 		sprite star/g3
 		distance 161.804
@@ -3312,8 +3352,8 @@ system Ryl
 	asteroids "large rock" 14 2.803
 	asteroids "small metal" 4 1.725
 	asteroids "large metal" 1 2.341
-	fleet "Giaradz Merchants" 800
-	fleet "Igadzra Militia" 1600
+	fleet "Strandless Merchants" 800
+	fleet Igadzra 1600
 	object
 		sprite star/g0
 		distance 103.621
@@ -3363,9 +3403,10 @@ system Senza
 	asteroids "small metal" 68 2.386
 	asteroids "medium metal" 51 2.957
 	asteroids "large metal" 62 2.218
-	fleet "Azdgari Militia" 2200
-	fleet "Giaradz Merchants" 5000
+	fleet "Azdgari Militia" 1500
+	fleet "Strandless Merchants" 5000
 	fleet Strandless 600
+	fleet "Strandless Large" 3000
 	object
 		sprite star/b5
 		period 10
@@ -3401,11 +3442,15 @@ system Serbira
 	asteroids "large metal" 6 4.8
 	minables copper 1 8.05
 	minables lead 2 6.712
-	fleet "Giaradz Merchants" 200
-	fleet "Crescent Militia" 400
-	fleet "Azdgari Militia" 5000
-	fleet "Igadzra Militia" 5000
-	fleet Strandless 3400
+	fleet "Giaradz Merchants" 400
+	fleet "Giaradz Merchants Large" 6000
+	fleet "Strandless Merchants" 600
+	fleet "Strandless Merchants Large" 4000
+	fleet Azdgari 1000
+	fleet "Azdgari Large" 2000
+	fleet Igadzra 1000
+	fleet "Igadzra Large" 3500
+	fleet Strandless 3000
 	object
 		sprite star/a0
 		period 10
@@ -3477,15 +3522,17 @@ system Sojt
 	link Puva
 	asteroids "medium rock" 1 0.939
 	asteroids "large rock" 3 1.263
-	asteroids "small metal" 48 1.278
-	asteroids "medium metal" 59 0.893
-	asteroids "large metal" 44 1.016
+	asteroids "small metal" 5 1.278
+	asteroids "medium metal" 9 0.893
+	asteroids "large metal" 4 1.016
 	minables lead 5 1.832
-	minables copper 12 1.749
-	minables silver 25 1.739
-	fleet "Giaradz Merchants" 300
-	fleet "Zidagar Militia" 500
-	fleet "Igadzra Militia" 6000
+	minables copper 6 1.749
+	minables silver 3 1.739
+	fleet "Strandless Merchants" 600
+	fleet "Zidagar Militia" 800
+	fleet Zidagar 800
+	fleet Igadzra 800
+	fleet "Igadzra Large" 6000
 	object
 		sprite star/g0-old
 		period 10
@@ -3532,9 +3579,11 @@ system Sotocza
 	asteroids "small metal" 9 2.81
 	asteroids "medium metal" 28 2.975
 	asteroids "large metal" 3 3.251
-	fleet "Giaradz Merchants" 300
+	fleet "Strandless Merchants" 600
+	fleet "Giaradz Merchants" 400
 	fleet Strandless 14000
-	fleet "Zidagar Militia" 300
+	fleet "Zidagar Militia" 600
+	fleet Zidagar 1200
 	fleet Miranu 2000
 	object
 		sprite star/k-dwarf
@@ -3628,8 +3677,8 @@ system Sutovyr
 	minables lead 10 6.074
 	minables neodymium 19 8.567
 	minables iron 19 6.765
-	fleet "Giaradz Merchants" 1000
-	fleet "Zidagar Militia" 1000
+	fleet "Strandless Merchants" 1400
+	fleet "Zidagar Militia" 1200
 	object
 		sprite star/g-dwarf
 		period 10
@@ -3761,9 +3810,10 @@ system Trolqu
 	minables aluminum 1 7.84
 	minables iron 1 8.684
 	minables copper 1 10.314
-	fleet "Giaradz Merchants" 900
-	fleet "Igadzra Militia" 2600
-	fleet "Zidagar Militia" 15000
+	fleet "Strandless Merchants" 900
+	fleet Igadzra 2600
+	fleet "Igadzra Large" 12000
+	fleet Zidagar 14000
 	object
 		sprite star/a-dwarf
 		distance 92.401
@@ -3803,9 +3853,11 @@ system Uqira
 	asteroids "large metal" 34 3.348
 	minables copper 17 3.233
 	minables aluminum 43 4.299
-	fleet "Azdgari Militia" 700
-	fleet "Giaradz Merchants" 3000
+	fleet "Azdgari Militia" 1000
+	fleet Azdgari 1000
+	fleet "Strandless Merchants" 3000
 	fleet Strandless 900
+	fleet "Strandless Large" 3000
 	object
 		sprite star/l-dwarf
 		distance 115.506
@@ -3846,7 +3898,7 @@ system Urga
 	link Bir
 	link Iuco
 	asteroids "large metal" 1 1.036
-	fleet "Giaradz Merchants" 400
+	fleet "Strandless Merchants" 400
 	fleet Strandless 3000
 	fleet "Crescent Militia" 600
 	object
@@ -3903,8 +3955,10 @@ system Urgast
 	asteroids "medium metal" 16 3.478
 	asteroids "large metal" 32 5.729
 	minables iron 12 9.515
-	fleet "Giaradz Merchants" 300
-	fleet "Azdgari Militia" 4000
+	fleet "Strandless Merchants" 400
+	fleet "Strandless Merchants Large" 3000
+	fleet Azdgari 2000
+	fleet "Azdgari Large" 3000
 	object
 		sprite star/k3
 		distance 95.149
@@ -3969,9 +4023,14 @@ system Vylatis
 	asteroids "medium metal" 1 2.937
 	asteroids "large metal" 1 2.673
 	minables copper 2 4.45
-	fleet "Giaradz Merchants" 200
+	fleet "Giaradz Merchants" 800
+	fleet "Strandless Merchants" 800
+	fleet "Strandless Merchants Large" 4000
+	fleet "Giaradz Merchants Large" 2000
 	fleet Strandless 1600
-	fleet "Zidagar Militia" 400
+	fleet "Strandless Large" 3000
+	fleet "Zidagar Militia" 600
+	fleet Zidagar 1400
 	object
 		sprite star/f0
 		period 10
@@ -4025,8 +4084,9 @@ system Wenibist
 	asteroids "large metal" 2 2.765
 	minables uranium 6 3.315
 	minables lead 17 1.918
-	fleet "Giaradz Merchants" 800
+	fleet "Strandless Merchants" 800
 	fleet "Zidagar Militia" 600
+	fleet Zidagar 2000
 	object
 		sprite star/k-dwarf
 		distance 109.478
@@ -4122,9 +4182,10 @@ system Xaxsu
 	asteroids "large metal" 1 2.28
 	minables copper 2 5.314
 	minables neodymium 12 5.66
-	fleet "Giaradz Merchants" 700
-	fleet "Igadzra Militia" 800
-	fleet "Zidagar Militia" 10000
+	fleet "Strandless Merchants" 700
+	fleet Igadzra 1000
+	fleet "Igadzra Large" 4000
+	fleet Zidagar 10000
 	object
 		sprite star/b8
 		period 10
@@ -4169,8 +4230,9 @@ system Yazgir
 	asteroids "small metal" 2 6.897
 	asteroids "medium metal" 1 4.263
 	asteroids "large metal" 1 7.75
-	fleet "Giaradz Merchants" 2700
+	fleet "Strandless Merchants" 2700
 	fleet Strandless 300
+	fleet "Strandless Large" 6000
 	object
 		sprite star/b5
 		period 10
@@ -4213,8 +4275,8 @@ system Yluis
 	minables iron 10 4.704
 	minables aluminum 11 3.782
 	minables titanium 14 6.712
-	fleet "Giaradz Merchants" 700
-	fleet "Azdgari Militia" 1900
+	fleet "Strandless Merchants" 1000
+	fleet Azdgari 1900
 	object
 		sprite star/f-supergiant
 		distance 436
@@ -4272,8 +4334,10 @@ system Yotli
 	asteroids "medium metal" 4 6.199
 	asteroids "large metal" 1 6.048
 	minables silver 4 13.157
-	fleet "Giaradz Merchants" 500
-	fleet "Azdgari Militia" 800
+	fleet "Strandless Merchants" 500
+	fleet "Azdgari Militia" 400
+	fleet Azdgari 400
+	fleet "Azdgari Large" 800
 	fleet Miranu 3200
 	object
 		sprite star/f5
@@ -4349,10 +4413,13 @@ system Miro
 	link Serbira
 	link Urgast
 	asteroids "large metal" 1 1.7
-	fleet "Giaradz Merchants" 4000
-	fleet "Azdgari Militia" 3000
-	fleet "Zidagar Militia" 3000
-	fleet "Igadzra Militia" 3000
+	fleet "Giaradz Merchants" 6000
+	fleet "Strandless Merchants" 8000
+	fleet Azdgari 1000
+	fleet "Azdgari Large" 2000
+	fleet Zidagar 1000
+	fleet Igadzra 1000
+	fleet "Igadzra Large" 3000
 	object
 		sprite star/k0-old
 		period 10
@@ -4427,7 +4494,7 @@ system "Za Helis"
 		period 1067.3
 	object
 		sprite planet/gas6-b
-		distance 13345.867
+		distance 9162.381
 		period 1773.913
 		object Ornoi
 			sprite planet/io
@@ -4544,8 +4611,11 @@ system Zidizarg
 	asteroids "large metal" 1 1.155
 	minables lead 3 2.573
 	minables uranium 9 1.666
-	fleet "Giaradz Merchants" 200
-	fleet "Zidagar Militia" 200
+	fleet "Strandless Merchants" 600
+	fleet "Giaradz Merchants" 600
+	fleet "Strandless Merchants Large" 2000
+	fleet "Zidagar Militia" 400
+	fleet Zidagar 600
 	fleet Miranu 1000
 	object
 		sprite star/k8
@@ -4948,20 +5018,94 @@ system NZG-14
 system NZG-61
 	pos 4348.764 -1914.097
 	government Strandless
+	habitable 980
+	belt 1746 5
 	link NZG-446
 	link Sonera
+	asteroids "small rock" 139 2.222
+	asteroids "medium rock" 17 2.029
+	asteroids "large rock" 57 2.801
+	asteroids "small metal" 9 2.576
+	asteroids "medium metal" 7 2.19
+	asteroids "large metal" 12 2.286
+	minables tungsten 49 3.744
 	fleet "Giaradz Merchants" 2600
 	fleet Strandless 600
 	fleet "Strandless Large" 1000
+	object
+		sprite star/k0-old
+		period 10
+	object Basteron
+		sprite planet/rock12-b
+		distance 590
+		period 183.115
+		object Destar
+			sprite planet/rock20
+			distance 159
+			period 75.787
+	object
+		sprite planet/rock12
+		distance 869.158
+		period 471.256
+	object
+		sprite planet/saturn
+		distance 3458.522
+		period 1509.843
+	object
+		sprite planet/neptune
+		distance 7687
+		period 8611.569
+		object
+			sprite planet/rock7-b
+			distance 231
+			period 166.085
 
 system Sonera
 	pos 4337.764 -1953.514
 	government Strandless
+	habitable 490
+	belt 1754 7
+	belt 1961
 	link NZG-61
 	link Tefis
+	asteroids "small rock" 24 3.349
+	asteroids "medium rock" 39 2.99
+	asteroids "large rock" 14 4.425
+	asteroids "small metal" 18 5.86
+	asteroids "large metal" 32 3.767
+	minables titanium 10 6.763
+	minables tungsten 9 4.174
+	minables copper 22 5.121
 	fleet "Giaradz Merchants" 3000
 	fleet Strandless 400
 	fleet "Strandless Large" 1200
+	object
+		sprite star/k0
+		period 10
+	object Jartro
+		sprite planet/cloud3-b
+		distance 294.318
+		period 89.24
+	object
+		sprite planet/gas15-b
+		distance 954
+		period 532.457
+		object
+			sprite planet/rock3
+			distance 237
+			period 137.919
+		object
+			sprite planet/io-b
+			distance 365
+			period 263.597
+	object
+		sprite planet/dust7-b
+		distance 1890
+		period 1484.755
+	object
+		sprite planet/gas14-b
+		distance 13253
+		period 27569.777
 
 system Telis
 	pos 4367.847 -2012.764
@@ -4976,7 +5120,8 @@ system Telis
 	asteroids "medium metal" 5 1.824
 	asteroids "large metal" 9 2.24
 	minables lead 3 2.583
-	fleet "Giaradz Merchants" 1600
+	fleet "Strandless Merchants" 2000
+	fleet "Giaradz Merchants" 3000
 	fleet Strandless 2000
 	fleet "Zidagar Militia" 3000
 	object
@@ -5054,7 +5199,7 @@ system NZG-0631
 	minables iron 8 6.384
 	minables lead 2 7.659
 	minables titanium 10 8.212
-	fleet "Giaradz Merchants" 6000
+	fleet "Strandless Merchants" 6000
 	fleet Strandless 4000
 	object
 		sprite star/k-giant
@@ -5080,7 +5225,7 @@ system NZG-020
 	link NZG-030
 	link Sutovyr
 	asteroids "large metal" 1 1.781
-	fleet "Giaradz Merchants" 5000
+	fleet "Strandless Merchants" 5000
 	object
 		sprite star/m3
 		period 10

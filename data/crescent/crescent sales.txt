@@ -58,6 +58,7 @@ outfitter "crescent"
 	"Phased Disruption Turret"
 	"Phased Defense Turret"
 	"Zonai Radar System"
+	"Supergate Navigation System"
 
 shipyard "crescent"
 	"Gazda"
