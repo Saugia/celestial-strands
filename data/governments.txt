@@ -12,6 +12,16 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 
+government "Crescent Militia"
+	"display name" Militia
+	color 0 0.169 0.819
+	"crew defense" 1
+	"attitude toward"
+		"Giaradz" 0.1
+		"Strandless (Friendly)" 0.1
+		Strandless -0.1
+		"Miranu" 1
+
 government Zachit
 	color 0 0.169 0.819
 	"player reputation" 0.1
@@ -19,8 +29,6 @@ government Zachit
 	"attitude toward"
 		Giaradz 0.1
 		Miranu 1
-		Strandless -0.1
-	raid ""
 
 government Miranu
 	color 0.553 0.144 0.917
@@ -28,31 +36,37 @@ government Miranu
 	"crew defense" 1
 	"attitude toward"
 		Giaradz 0.1
-		Strandless -0.1
+		"Strandless (Friendly)" 0.1
 		Zachit 1
-	raid ""
-
-government Giaradz
-	color 0.144 0.735 0.917
-	"player reputation" 0.1
-	"crew defense" 1
-	"attitude toward"
-		Zachit 1
-		Miranu 0.1
-	raid ""
 
 government Strandless
 	color 1 0.255 0.408
 	"player reputation" -0.1
 	"crew defense" 1
 	"attitude toward"
-		Zidagar -0.1
 		Igadzra -0.1
-		Giaradz -0.1
+		Azdgari -0.1
+		Zidagar -0.1
 		Miranu -0.1
 		Zachit -0.1
-		Azdgari -0.01
-	raid ""
+		Giaradz -0.1
+
+government "Strandless (Friendly)"
+	"display name" Strandless
+	color 0.335 0.912 0.861
+	"player reputation" 0.1
+	"crew defense" 1
+	"attitude toward"
+		Miranu 0.1
+		Strandless -0.1
+
+government Giaradz
+	color 0.144 0.735 0.917
+	"player reputation" 0.1
+	"crew defense" 1
+	"attitude toward"
+		Miranu 1
+		Zachit 0.1
 
 government Azdgari
 	color 0.387 1 0.549
@@ -60,9 +74,7 @@ government Azdgari
 	"crew defense" 1
 	"attitude toward"
 		Igadzra -0.1
-		Zidagar -0.1
 		Strandless -0.01
-	raid ""
 
 government Igadzra
 	color 1 0.824 0
@@ -71,7 +83,6 @@ government Igadzra
 		Zidagar -0.1
 		Azdgari -0.1
 		Strandless -0.1
-	raid ""
 
 government Zidagar
 	color 0.55 0.302 0.799
@@ -81,18 +92,4 @@ government Zidagar
 		Azdgari -0.1
 		Igadzra -0.1
 		Strandless -0.1
-	raid ""
-
-government Polari
-	color 1 0.255 0.408
-	"player reputation" -1
-	"crew defense" 1
-	"attitude toward"
-		Azdgari -1
-		Giaradz -1
-		Miranu -1
-		Igadzra -1
-		Strandless -1
-		Zachit -1
-		Zidagar -1
 

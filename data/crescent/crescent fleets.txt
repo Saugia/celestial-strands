@@ -12,98 +12,290 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 
-shipyard "crescent"
-	"Gazda"
-	"Zidagar Gazda"
-	"Azdara"
-	"Arada"
-	"Igadzra Arada"
-	"Azdgari Arada"
-	"Zidara"
-	"Lazira"
-	"Gazdira"
-	"Azdgari Gazdira"
-	"Igazra"
-
-	"Lizada"
-	"Elzaria"
-	"Aridara"
-	"Azigda"
-	"Igazirada"
-
-	"Zachit Gazda"
-	"Zachit Lizada"
-	"Zachit Arada"
-	"Zachit Aridara"
-	"Zidagar Elzaria"
-	"Igadzra Aridara"
-	"Mirunisa"
-	"Jiunura"
-
 fleet "Giaradz Merchants"
-	government Giaradz
+	government "Giaradz"
 	#names "giaradz"
 	cargo 2
 	personality timid
-	variant 42
+	variant 45
 		"Arada"
-	variant 18
-		"Lazira"
-	variant 3
-		"Gazdira"
-		"Gazda" 3
-	variant
-		"Elzaria"
+	variant 5
+		"Arada (Dispy)"
+	variant 5
+		"Arada (Pursuit)"
+	variant 20
 		"Gazda"
+	variant 1
+		"Gazda (Dispy)"
+	variant 1
+		"Gazda (Pursuit)"
+	variant 10
+		"Lazira"
+	variant 1
+		"Lazira (Gunboat)"
+	variant 1
+		"Lazira (Turret)"
+	variant 1
+		"Lazira (Pursuit)"
+	variant 1
+		"Arada"
+		"Gazda" 2
 
-fleet "Giaradz Militia"
-	government Giaradz
+
+fleet "Giaradz Merchants Large"
+	government "Giaradz"
 	#names "giaradz"
 	cargo 2
-	personality heroic
-	variant 34
+	personality timid
+	variant 1
+		"Arada (SAD)"
+	variant 1
+		"Gazda (SAD)"
+	variant 10
+		"Lazira"
+	variant 1
+		"Lazira (Gunboat)"
+	variant 1
+		"Lazira (Turret)"
+	variant 1
+		"Lazira (Pursuit)"
+	variant 1
+		"Lazira (SAD)"
+	variant 1
+		"Lazira (Attractor)"
+	variant 1
+		"Lazira (Repulsor)"
+	variant 15
+		"Gazdira"
+		"Gazda" 3
+	variant 1
+		"Gazdira (Gunship)"	
+		"Gazda" 3
+	variant 1
+		"Gazdira (Dispy)"
+		"Gazda" 3
+	variant 1
+		"Gazdira (Pursuit)"
+		"Gazda" 3
+	variant 1
+		"Gazdira (Missileboat)"
+		"Gazda" 3
+	variant 1
+		"Lazira"
+		"Arada" 2
+		"Gazda" 2
+
+
+fleet "Strandless Merchants"
+	government "Strandless (Friendly)"
+	#names "strandless"
+	cargo 2
+	personality timid
+	variant 45
+		"Arada"
+	variant 5
+		"Arada (Dispy)"
+	variant 5
+		"Arada (Pursuit)"
+	variant 20
 		"Gazda"
-	variant 6
+	variant 1
+		"Gazda (Dispy)"
+	variant 1
+		"Gazda (Pursuit)"
+	variant 5
+		"Lazira"
+	variant 1
+		"Lazira (Gunboat)"
+	variant 1
+		"Lazira (Turret)"
+	variant 1
+		"Lazira (Pursuit)"
+	variant 1
+		"Arada"
+		"Gazda" 2
+
+
+fleet "Strandless Merchants Large"
+	government "Strandless (Friendly)"
+	#names "strandless"
+	cargo 2
+	personality timid
+	variant 1
+		"Arada (SAD)"
+	variant 1
+		"Gazda (SAD)"
+	variant 10
+		"Lazira"
+	variant 1
+		"Lazira (Gunboat)"
+	variant 1
+		"Lazira (Turret)"
+	variant 1
+		"Lazira (Pursuit)"
+	variant 1
+		"Lazira (SAD)"
+	variant 1
+		"Lazira (Attractor)"
+	variant 1
+		"Lazira (Repulsor)"
+	variant 10
+		"Gazdira"
+		"Gazda" 3
+	variant 1
+		"Gazdira (Gunship)"	
+		"Gazda" 3
+	variant 1
+		"Gazdira (Dispy)"
+		"Gazda" 3
+	variant 1
+		"Gazdira (Pursuit)"
+		"Gazda" 3
+	variant 1
+		"Gazdira (Missileboat)"
+		"Gazda" 3
+	variant 1
+		"Lazira"
+		"Arada" 2
+		"Gazda" 2
+
+
+fleet "Strandless"
+	government Strandless
+	#names "strandless"
+	cargo 2
+	personality plunders disables
+	variant 45
+		"Arada"
+	variant 35
+		"Arada (Dispy)"
+	variant 5
+		"Arada (Pursuit)"
+	variant 35
+		"Gazda"
+	variant 5
+		"Gazda (Dispy)"
+	variant 1
+		"Gazda (Pursuit)"
+	variant 10
+		"Lazira"
+	variant 1
+		"Lazira (Gunboat)"
+	variant 1
+		"Lazira (Turret)"
+	variant 1
+		"Lazira (Pursuit)"
+	variant 1
+		"Gazda" 2
+
+
+fleet "Strandless Large"
+	government Strandless
+	#names "strandless"
+	cargo 2
+	personality plunders disables
+	variant 1
+		"Arada (SAD)"
+	variant 1
+		"Gazda (SAD)"
+	variant 10
+		"Lazira"
+	variant 1
+		"Lazira (Gunboat)"
+	variant 1
+		"Lazira (Turret)"
+	variant 1
+		"Lazira (Pursuit)"
+	variant 1
+		"Lazira (SAD)"
+	variant 10
+		"Gazdira"
+		"Gazda" 3
+	variant 2
+		"Gazdira (Gunship)"	
+		"Gazda" 3
+	variant 2
+		"Gazdira (Dispy)"
+		"Gazda" 3
+	variant 1
+		"Gazdira (Pursuit)"
+		"Gazda" 3
+	variant 1
+		"Gazdira (Missileboat)"
+		"Gazda" 3
+	variant 1
+		"Arada" 2
+	variant 1
+		"Lazira"
+		"Arada"
+
+
+fleet "Crescent Militia"
+	government "Crescent Militia"
+	#names "militia"
+	cargo 2
+	personality heroic
+	variant 40
+		"Gazda"
+	variant 10
+		"Gazda" 2
+	variant 8
 		"Lizada"
+	variant 1
+		"Lizada (Turrets)"
+	variant 1
+		"Lizada" 2
+	variant 1
+		"Lizada (Turrets)"
+		"Gazda" 2
+
 
 fleet "Zachit Militia"
 	government Zachit
 	#names "zachit"
 	cargo 2
 	personality heroic
-	variant 29
-		"Zachit Gazda"
-	variant 8
-		"Zachit Lizada"
-	variant 18
+	variant 20
 		"Zachit Arada"
+	variant 2
+		"Zachit Arada (Gunboat)"
+	variant 2
+		"Zachit Arada (Missileboat)"
+	variant 40
+		"Zachit Gazda"
+	variant 1
+		"Zachit Gazda (Phase)"
+	variant 1
+		"Zachit Gazda (Pursuit)"
+	variant 15
+		"Zachit Lizada"
+	variant 1
+		"Zachit Lizada (Missileboat)"
 
 fleet "Miranu"
 	government Miranu
 	#names "miranu"
 	cargo 2
 	personality timid appeasing
-	variant 16
+	variant 24
 		"Mirunisa"
 	variant
 		"Jiunura"
-
-fleet "Strandless"
-	government Strandless
-	#names "strandless"
-	cargo 2
-	personality plunders
-	variant 40
-		"Gazda"
-	variant 34
-		"Arada"
-	variant 9
-		"Lazira"
-	variant 8
-		"Lizada"
 	variant
-		"Gazdira"
-		"Gazda" 3
+		"Jiunura (A)"
+	variant
+		"Jiunura (B)"
+	variant
+		"Jiunura (C)"
+
+---------------------------------------------
+
+
+
+
+
+
+
 
 fleet "Zidagar Militia"
 	government Zidagar
