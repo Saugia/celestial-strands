@@ -12,7 +12,7 @@ Current additions:
 * 41 new outfits based on ones from Escape Velocity: Override, as well as a few new ones.
 
 ## Content Access
-You can access the new content either through creating new pilot and selecting the "Crescent Strands" option, or through the Hariza system located near The Rim by Jump Drive. Reccommend also using Omnis: https://github.com/Adde-Endless-Sky-Mods/-Omnis
+You can access the new content either through creating a new pilot and selecting the "Crescent Strands" option, or through the Hariza system located near The Rim by Jump Drive. Recommend also using Omnis: https://github.com/EndlessSkyCommunity/-Omnis
 
 ## Known Issues
 Sometimes Militia or other fleets that have fighters with scanners clump up.
